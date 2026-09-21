@@ -1,0 +1,24 @@
+ΞΕΚΙΝΑ ΕΔΩ
+==========
+
+1. Ξεζίπαρε ΟΛΟ αυτό το zip σε έναν ΑΔΕΙΟ φάκελο, εκτός Synology Drive.
+   Προτεινόμενο:  C:\dev\goodlandsite
+
+   Πρέπει να δεις μέσα:  app  components  content  scripts
+                         package.json  tsconfig.json  next.config.ts  .gitignore
+
+2. Άνοιξε PowerShell σε αυτόν τον φάκελο
+   (κλικ στη γραμμή διεύθυνσης της Εξερεύνησης, γράψε: powershell)
+
+3. Τρέξε με τη σειρά:
+
+   node -v                          <- πρέπει να βγάλει νούμερο, αλλιώς nodejs.org
+   npm install
+   node scripts/download-images.mjs
+   npm run dev
+
+4. Άνοιξε:  http://localhost:3000
+
+ΜΗΝ τρέξεις create-next-app. Δεν χρειάζεται, όλα είναι ήδη εδώ.
+
+Αν κάτι σκάσει, στείλε το σφάλμα όπως είναι.

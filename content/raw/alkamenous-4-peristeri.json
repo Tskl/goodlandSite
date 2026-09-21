@@ -1,0 +1,262 @@
+{
+ "path": "/alkamenous-4-peristeri",
+ "title": "Νεόδμητη Κατοικία στο Περιστέρι | Ευγειος Goodland ΕΠΕ",
+ "meta": null,
+ "h1": [
+  "ΑΛΚΑΜΕΝΟΥΣ 4, ΠΕΡΙΣΤΕΡΙ"
+ ],
+ "building": {
+  "el": [
+   "- Πενταώροφη πολυκατοικία επί pilotis με υπόγειο.",
+   "- Ενεργειακή κλάση Α.",
+   "- Κατασκευή υψηλών προδιαγραφών.",
+   "- Παράδοση υπό κατασκευή."
+  ],
+  "en": [
+   "- Five-storey apartment building with basement.",
+   "- Energy class A.",
+   "- High standard construction.",
+   "- Delivery under construction."
+  ]
+ },
+ "units": [
+  {
+   "floor_el": "1ος ΟΡΟΦΟΣ",
+   "floor_en": "1st FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ 48 Τ.Μ.",
+   "title_en": "APARTMENT 48 m2",
+   "sqm": 48,
+   "desc_el": "Αποτελείται από 1 υπνοδωμάτιo, καθιστικό, κουζίνα, τραπεζαρία και μπάνιο. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα και σωμάτων.",
+   "desc_en": "It consists of 1 bedroom, a living room, a kitchen-dining room, and a bathroom. It has a parking space on the ground floor, a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is via a boiler and radiators.",
+   "status_raw": "150.000€"
+  },
+  {
+   "floor_el": "1ος ΟΡΟΦΟΣ",
+   "floor_en": "1st FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ 73 Τ.Μ.",
+   "title_en": "APARTMENT 73 m2",
+   "sqm": 73,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και μπάνιο. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα και σωμάτων.",
+   "desc_en": "It consists of 2 bedrooms, a living room, a kitchen-dining room, and a bathroom. It has a parking space on the ground floor, a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is via a boiler and radiators.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "1ος ΟΡΟΦΟΣ",
+   "floor_en": "1st FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ 70 Τ.Μ.",
+   "title_en": "APARTMENT 70 m2",
+   "sqm": 70,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και μπάνιο. Διαθέτει θέση πάρκινγκ στο υπόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα και σωμάτων.",
+   "desc_en": "It consists of 2 bedrooms, a living room, a kitchen-dining room, and a bathroom. It has a parking space in the underground parking area, a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is via a boiler and radiators.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "2ος ΟΡΟΦΟΣ",
+   "floor_en": "2nd FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ 59 Τ.Μ.",
+   "title_en": "APARTMENT 59 m2",
+   "sqm": 59,
+   "desc_el": "Αποτελείται από 1 υπνοδωμάτιο, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο υπόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα και σωμάτων.",
+   "desc_en": "It consists of 1 bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space in the underground parking area, a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is via a boiler and radiators.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "2ος ΟΡΟΦΟΣ",
+   "floor_en": "2nd FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ 54 Τ.Μ.",
+   "title_en": "APARTMENT 54 m2",
+   "sqm": 54,
+   "desc_el": "Αποτελείται από 1 υπνοδωμάτιο, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα και σωμάτων.",
+   "desc_en": "It consists of 1 bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space in the ground-floor parking area, a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is via a boiler and radiators.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "3ος ΟΡΟΦΟΣ",
+   "floor_en": "3rd FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ 52 Τ.Μ.",
+   "title_en": "APARTMENT 52 m2",
+   "sqm": 52,
+   "desc_el": "Αποτελείται από 1 υπνοδωμάτιο, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο υπόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα και σωμάτων.",
+   "desc_en": "It consists of 1 bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space in the underground parking area, a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is via a boiler and radiators.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "3ος ΟΡΟΦΟΣ",
+   "floor_en": "3rd FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ 70 Τ.Μ.",
+   "title_en": "APARTMENT 70 m2",
+   "sqm": 70,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο υπόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα και σωμάτων.",
+   "desc_en": "It consists of 2 bedrooms, a living room, a kitchen-dining room and a bathroom. It has a parking space in the underground parking area, a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is via a boiler and radiators.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "3ος ΟΡΟΦΟΣ",
+   "floor_en": "3rd FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ 52 Τ.Μ.",
+   "title_en": "APARTMENT 52 m2",
+   "sqm": 52,
+   "desc_el": "Αποτελείται από 1 υπνοδωμάτιο, καθιστικό, κουζίνα, τραπεζαρία και μπάνιο. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα και σωμάτων.",
+   "desc_en": "It consists of 1 bedroom, a living room, a kitchen-dining room and bathroom. It has a parking space in the ground-floor covered parking (pilotis), a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is via a boiler and radiators.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "4ος-5ος ΟΡΟΦΟΣ",
+   "floor_en": "4th-5th FLOOR",
+   "title_el": "ΜΕΖΟΝΕΤΑ 105 Τ.Μ.",
+   "title_en": "MAISONETTE 105 m2",
+   "sqm": 105,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, δύο μπάνια και wc. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα και σωμάτων.",
+   "desc_en": "It consists of 2 bedrooms, a living room, a kitchen-dining room, two bathrooms and a wc. It has a parking space in the ground-floor covered parking (pilotis), a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is via a boiler and radiators.",
+   "status_raw": "335.000€"
+  },
+  {
+   "floor_el": "4ος-5ος ΟΡΟΦΟΣ",
+   "floor_en": "4th-5th FLOOR",
+   "title_el": "ΜΕΖΟΝΕΤΑ 99 Τ.Μ.",
+   "title_en": "MAISONETTE 99 m2",
+   "sqm": 99,
+   "desc_el": "Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, δύο μπάνια και wc. Διαθέτει θέση πάρκινγκ στο υπόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα και σωμάτων.",
+   "desc_en": "It consists of 3 bedrooms, a living room, a kitchen-dining room, two bathrooms and a wc. It has a parking space in the underground parking area, a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is via a boiler and radiators.",
+   "status_raw": "320.000€"
+  },
+  {
+   "floor_el": "4ος-5ος ΟΡΟΦΟΣ",
+   "floor_en": "4th-5th FLOOR",
+   "title_el": "ΜΕΖΟΝΕΤΑ 107 Τ.Μ.",
+   "title_en": "MAISONETTE 107 m2",
+   "sqm": 107,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και δύο μπάνια. Διαθέτει θέση πάρκινγκ στο υπόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα και σωμάτων.",
+   "desc_en": "It consists of 2 bedrooms, a living room, a kitchen-dining room and two bathrooms. It has a parking space in the underground parking area, a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is via a boiler and radiators.",
+   "status_raw": "335.000€"
+  }
+ ],
+ "images": [
+  {
+   "alt": null,
+   "full": "https://static.wixstatic.com/media/11062b_1d0bcc469def47d2aa6a11ac417208db~mv2_d_2256_1269_s_2.jpg"
+  },
+  {
+   "alt": "2ΕΥΓΕΙΟΣ_LOGO_CURRENT_edited.png",
+   "full": "https://static.wixstatic.com/media/3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png"
+  },
+  {
+   "alt": "4.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_8073aa70a4af4b5f8b7d7391f97c4036~mv2.jpg"
+  },
+  {
+   "alt": "1.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_bf54d03ea7d742d6aeda7127eb3c704d~mv2.jpg"
+  },
+  {
+   "alt": "ΑΛΚΑΜΕΝΟΥΣ-Α1.png",
+   "full": "https://static.wixstatic.com/media/3c238e_2b07942f39bd40dfa72fc1bf8b7de1df~mv2.png"
+  },
+  {
+   "alt": "Α2-ΔΙΑΜ.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_39a5b5f519ca444da2a6941560999419~mv2.jpg"
+  },
+  {
+   "alt": "'A3.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_97c2dee154cc4adc91258aa7991ee5f9~mv2.jpg"
+  },
+  {
+   "alt": "'B1.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_b6390491851d4b2686678e7643011c81~mv2.jpg"
+  },
+  {
+   "alt": "ΑΛΚΑΜΕΝΟΥΣ-Β4.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_81b401ec1c2a49a28db45603aa0a95f2~mv2.jpg"
+  },
+  {
+   "alt": "ΑΛΚΑΜΕΝΟΥΣ-Γ1.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_2b975d6c85614e8db64bbc9c83299874~mv2.jpg"
+  },
+  {
+   "alt": "'Γ3.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_12e04b259c4f4eb780378098e03e801e~mv2.jpg"
+  },
+  {
+   "alt": "'Γ4.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_b33ec24f9c804a3b87e0a42b9fb0ba09~mv2.jpg"
+  },
+  {
+   "alt": "1α (4).png",
+   "full": "https://static.wixstatic.com/media/3c238e_ce4721fd85b94976ba91fd1dfb8c0177~mv2.png"
+  },
+  {
+   "alt": "1α (3).png",
+   "full": "https://static.wixstatic.com/media/3c238e_b93fa58a8ca14588884b1d465f656b16~mv2.png"
+  },
+  {
+   "alt": "δ1.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_f8bf6c9d08b547c3b755ebb19a2a9829~mv2.jpg"
+  },
+  {
+   "alt": "ε1.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_7762433a95ca4e5591a710fa8eff5c58~mv2.jpg"
+  },
+  {
+   "alt": "δ2.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_3d8c46114e4f4e029a8bf070f0234fa0~mv2.jpg"
+  },
+  {
+   "alt": "ε2.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_4ec6323c80db4bf3ae83253c5a524207~mv2.jpg"
+  },
+  {
+   "alt": "δ3.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_a1ef212ef2c14bd1b8c20949308a3d25~mv2.jpg"
+  },
+  {
+   "alt": "ε3.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_a8b0cf3c3f644980997a66cd1ea0eb3e~mv2.jpg"
+  },
+  {
+   "alt": "5.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_8c02ff92c0dd4a1b8578b3b442bd9569~mv2.jpg"
+  },
+  {
+   "alt": "2.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_77f768748d9b425c876da9d190d54469~mv2.jpg"
+  },
+  {
+   "alt": "3.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_04863d55966c49f08f416fc48cee1f98~mv2.jpg"
+  },
+  {
+   "alt": "6.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_2f641af00a09402b889c032baa24d9e6~mv2.jpg"
+  },
+  {
+   "alt": "1α (1).png",
+   "full": "https://static.wixstatic.com/media/3c238e_eb4f68112728464bacb7ef83f0103ffe~mv2.png"
+  },
+  {
+   "alt": "1α (2).png",
+   "full": "https://static.wixstatic.com/media/3c238e_2874bd14fb8f40bc99d2b35544add148~mv2.png"
+  },
+  {
+   "alt": "1α (3).png",
+   "full": "https://static.wixstatic.com/media/3c238e_744447d0da144dcd8bfaef2f13fff33a~mv2.png"
+  },
+  {
+   "alt": "1α (4).png",
+   "full": "https://static.wixstatic.com/media/3c238e_399787a8006c48feb5f3f034f8657429~mv2.png"
+  },
+  {
+   "alt": "1α (5).png",
+   "full": "https://static.wixstatic.com/media/3c238e_183c1c01b2e9422eb845e44699494d95~mv2.png"
+  }
+ ],
+ "links": [
+  "https://www.goodland.gr/"
+ ],
+ "notes": [
+  "ΤΙΜΕΣ ΥΠΑΡΧΟΥΝ: 150.000€ (48 τ.μ.), 335.000€ (105 τ.μ.), 320.000€ (99 τ.μ.), 335.000€ (107 τ.μ.)",
+  "3 από τα 11 διαθέσιμα με τιμή, 8 'Μη διαθέσιμο'",
+  "Χωρίς meta description",
+  "1 link μόνο (λογότυπο)",
+  "Διπλά alt: '1α (3).png' και '1α (4).png' εμφανίζονται δύο φορές σε διαφορετικά αρχεία"
+ ]
+}

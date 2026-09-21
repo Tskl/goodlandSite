@@ -1,0 +1,42 @@
+{
+ "path": "/contact",
+ "title": "Επικοινωνία | Ευγειος Goodland ΕΠΕ",
+ "meta": null,
+ "h1": ["ΕΠΙΚΟΙΝΩΝΙΑ (contact)"],
+ "h2": [],
+ "lines": [
+  "ΕΠΙΚΟΙΝΩΝΙΑ", "(contact)",
+  "ΔΙΕΥΘΥΝΣΗ", "ΥΔΡΑΣ 14, ΜΟΣΧΑΤΟ",
+  "ΤΗΛΕΦΩΝΟ ΕΠΙΚΟΙΝΩΝΙΑΣ", "2130996050", "6945135770",
+  "Email", "goodlandcon@gmail.com",
+  "Social Media",
+  "First Name", "Last Name", "Email", "Message", "Send",
+  "2130996050 / 2130354695",
+  "©2022 by ΕΥΓΕΙΟΣ GOODLAND Μ. ΕΠΕ."
+ ],
+ "formFields": [
+  {"tag": "input", "type": "text", "name": "first-name", "label": "First Name", "required": false},
+  {"tag": "input", "type": "text", "name": "last-name", "label": "Last Name", "required": false},
+  {"tag": "input", "type": "email", "name": "email", "label": "Email", "required": true},
+  {"tag": "textarea", "type": "textarea", "name": null, "label": "Message", "required": false}
+ ],
+ "images": [
+  {"alt": "2ΕΥΓΕΙΟΣ_LOGO_CURRENT_edited.png", "full": "https://static.wixstatic.com/media/3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png"},
+  {"alt": null, "full": "https://static.wixstatic.com/media/11062b_c25447aa34f74eeba5dc0b329382aa13f000.jpg"},
+  {"alt": "Instagram", "full": "https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png"}
+ ],
+ "links": [
+  "https://www.goodland.gr/",
+  "mailto:info@mysite.com",
+  "https://www.instagram.com/goodland_constructions/"
+ ],
+ "notes": [
+  "ΣΟΒΑΡΟ - ΝΕΟ ΕΥΡΗΜΑ: ο σύνδεσμος email της σελίδας επικοινωνίας δείχνει mailto:info@mysite.com (placeholder του Wix template). Ζωντανό αυτή τη στιγμή.",
+  "ΤΡΙΤΟ τηλέφωνο: 6945135770 (κινητό), μαζί με 2130996050 στο σώμα και 2130996050 / 2130354695 στο footer",
+  "E11 επιβεβαιωμένο: μόνο το Email είναι υποχρεωτικό, κανένα πεδίο τηλεφώνου",
+  "E12 επιβεβαιωμένο: ετικέτες φόρμας στα αγγλικά (First Name, Last Name, Email, Message, Send)",
+  "E13 επιβεβαιωμένο: κανένα checkbox GDPR",
+  "Χωρίς meta description",
+  "Λείπει ο σύνδεσμος Facebook - μόνο Instagram εδώ"
+ ]
+}

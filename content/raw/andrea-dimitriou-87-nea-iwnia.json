@@ -1,0 +1,167 @@
+{
+ "path": "/andrea-dimitriou-87-nea-iwnia",
+ "title": "Νεόδμητη Κατοικία στην Ν. Ιωνία | ΕΥΓΕΙΟΣ GOODLAND",
+ "meta": "Νεόδμητη ",
+ "h1": [
+  "ΑΝΔΡΕΑ ΔΗΜΗΤΡΙΟΥ 87, Ν. ΙΩΝΙΑ"
+ ],
+ "building": {
+  "el": [
+   "- Πενταώροφη πολυκατοικία με σοφίτα & υπόγειο.",
+   "- Ενεργειακή κλάση Α.",
+   "- Κατασκευή υψηλών προδιαγραφών.",
+   "- Παράδοση υπό κατασκευή."
+  ],
+  "en": [
+   "- Five-storey apartment building with loft &basement.",
+   "- Energy class A.",
+   "- High standard construction.",
+   "- Delivery under construction."
+  ]
+ },
+ "units": [
+  {
+   "floor_el": "1ος ΟΡΟΦΟΣ",
+   "floor_en": "1st FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ 69 Μ2",
+   "title_en": "APARTMENT 69 m2",
+   "sqm": 69,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.",
+   "desc_en": "It consists of 2 bedrooms, a living room, a kitchen-dining room and bathroom. It has a parking space on the ground floor, a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "1ος ΟΡΟΦΟΣ",
+   "floor_en": "1st FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ 69 Μ2",
+   "title_en": "APARTMENT 69 m2",
+   "sqm": 69,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.",
+   "desc_en": "It consists of 2 bedrooms, a living room, a kitchen-dining room and bathroom. It has a parking space in the ground-floor covered parking area (pilotis), a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.",
+   "status_raw": "205.000€"
+  },
+  {
+   "floor_el": "2ος ΟΡΟΦΟΣ",
+   "floor_en": "2nd FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ 42 Μ2",
+   "title_en": "APARTMENT 42 m2",
+   "sqm": 42,
+   "desc_el": "Αποτελείται από 1 υπνοδωμάτιo, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.",
+   "desc_en": "It consists of 1 bedroom, a living room, a kitchen-dining room and bathroom. It has a parking space on the ground floor, a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "2ος ΟΡΟΦΟΣ",
+   "floor_en": "2nd FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ 69 Τ.Μ.",
+   "title_en": "APARTMENT 69 m2",
+   "sqm": 69,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο υπόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.",
+   "desc_en": "It consists of 2 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space in the underground parking area, a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "3ος ΟΡΟΦΟΣ",
+   "floor_en": "3rd FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ 79 Τ.Μ.",
+   "title_en": "APARTMENT 79 m2",
+   "sqm": 79,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ στο ιυπόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.",
+   "desc_en": "It consists of 2 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc.It has a parking space in the underground parking area, a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.",
+   "status_raw": "250.000€"
+  },
+  {
+   "floor_el": "4ος - 5ος ΟΡΟΦΟΣ",
+   "floor_en": "4th - 5th FLOOR",
+   "title_el": "MEZONETA 106 Τ.Μ.",
+   "title_en": "MEZONETTE 106 m2",
+   "sqm": 106,
+   "desc_el": "Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και δύο μπάνια. Διαθέτει θέση πάρκινγκ στο υπόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.",
+   "desc_en": "It consists of 3 bedrooms, a living room, a kitchen-dining room and two bathrooms. It has a parking spacein the underground parking area, a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.",
+   "status_raw": "350.000€"
+  },
+  {
+   "floor_el": "4ος - 5ος ΟΡΟΦΟΣ",
+   "floor_en": "4th - 5th FLOOR",
+   "title_el": "MEZONETA 104 Τ.Μ.",
+   "title_en": "MEZONETTE 104 m2",
+   "sqm": 104,
+   "desc_el": "Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και δύο μπάνια. Διαθέτει θέση πάρκινγκ στο υπόγειο, αποθήκη στο υπόγειο, laminate πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.",
+   "desc_en": "It consists of 3 bedrooms, a living room, a kitchen-dining room and two bathrooms. It has a parking space in the underground parking area, a storage room in the basement, laminate floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.",
+   "status_raw": "335.000€"
+  }
+ ],
+ "images": [
+  {
+   "alt": null,
+   "full": "https://static.wixstatic.com/media/11062b_1d0bcc469def47d2aa6a11ac417208db~mv2_d_2256_1269_s_2.jpg"
+  },
+  {
+   "alt": "2ΕΥΓΕΙΟΣ_LOGO_CURRENT_edited.png",
+   "full": "https://static.wixstatic.com/media/3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png"
+  },
+  {
+   "alt": "01.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_3f1dd76c45494e9e83a8e72d186a23d8~mv2.jpg"
+  },
+  {
+   "alt": "Α2.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_57e857f61d124ac4916da24fe10cacf0~mv2.jpg"
+  },
+  {
+   "alt": "A3.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_cee071bbf06c48b3924d30fddd0d89fe~mv2.jpg"
+  },
+  {
+   "alt": "B1.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_1a29b199b1e24a8089ece490dec1eae1~mv2.jpg"
+  },
+  {
+   "alt": "ΚΑΛΟΓΡΕΖΑ-Β3.png",
+   "full": "https://static.wixstatic.com/media/3c238e_35bcaa527a9f4144b182125e1a1ed9f9~mv2.png"
+  },
+  {
+   "alt": "C2.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_8a3ff3d1d9d647bc85519029e50ade09~mv2.jpg"
+  },
+  {
+   "alt": "D1.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_6d04f13299944b1e88b72bd39765b6eb~mv2.jpg"
+  },
+  {
+   "alt": "E1.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_7666ea78ed6746378c3276f718d85fa3~mv2.jpg"
+  },
+  {
+   "alt": "ΚΑΛΟΓΡΕΖΑ-Δ2.png",
+   "full": "https://static.wixstatic.com/media/3c238e_c68ae905048844aa91b54c4edb8593a7~mv2.png"
+  },
+  {
+   "alt": "ΚΑΛΟΓΡ�ΕΖΑ-Ε2.png",
+   "full": "https://static.wixstatic.com/media/3c238e_d825bcd26d154096afd3312648b53728~mv2.png"
+  },
+  {
+   "alt": "02.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_23c3dd14868f4a0fa0ddf41286b104b8~mv2.jpg"
+  },
+  {
+   "alt": "03.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_631506515bb94885bb6d1ff9704241b3~mv2.jpg"
+  },
+  {
+   "alt": "05.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_b18c2798f8724468ba06aa3412cb9f71~mv2.jpg"
+  }
+ ],
+ "links": [
+  "https://www.goodland.gr/"
+ ],
+ "notes": [
+  "ΤΙΜΕΣ: 205.000€ (69 τ.μ.), 250.000€ (79 τ.μ.), 350.000€ (106 τ.μ.), 335.000€ (104 τ.μ.)",
+  "meta description ΚΟΜΜΕΝΗ: η τιμή της είναι ακριβώς 'Νεόδμητη ' - μία λέξη",
+  "ΚΑΤΕΣΤΡΑΜΜΕΝΟ alt: 'ΚΑΛΟΓΡ<?>ΕΖΑ-Ε2.png' - χαλασμένο encoding στο ίδιο το όνομα αρχείου στο Wix",
+  "Το DOM δίνει ανακατεμένη σειρά στο διαμέρισμα 69 τ.μ. του 2ου ορόφου (τίτλος/περιγραφή/όροφος σε λάθος σειρά) - ελέγξτε το χειροκίνητα",
+  "Ο τίτλος browser λέει 'ΕΥΓΕΙΟΣ GOODLAND' ενώ οι άλλες σελίδες λένε 'Ευγειος Goodland ΕΠΕ' - ασυνέπεια",
+  "1 link μόνο (λογότυπο)"
+ ]
+}

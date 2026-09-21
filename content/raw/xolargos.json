@@ -1,0 +1,74 @@
+{
+ "path": "/xolargos",
+ "title": "Ολοκληρωμένα Έργα Χολαργός | Ευγειος Goodland ΕΠΕ",
+ "meta": null,
+ "h1": [],
+ "buildings": [
+  {
+   "address": "ΠΥΘΑΓΟΡΑ 20, ΧΟΛΑΡΓΟΣ",
+   "specs_el": "ΤΕΤΡΑΩΡΟΦΗ ΠΟΛΥΚΑΤΟΙΚΙΑ ΕΠΙ PILOTIS ΜΕ ΥΠΟΓΕΙΟ & ΔΩΜΑ",
+   "description_el": [
+    "Πρόκειται για ένα κτήριο κατοικιών τοποθετημένο στην περιοχή του Χολαργού.",
+    "Με σύμμαχο τον άριστο προσανατολισμό, δημιουργήθηκε ένα κτήριο με λευκά γραμμικά οριζόντια στοιχεία και ξύλινα περσιδωτά χωρίσματα.",
+    "Η μέγιστη ενεργειακή κατάταξη του κτηρίου επιτυγχάνεται με την χρήση ενεργειακών κουφωμάτων, ηλιακών συλλεκτών, θερμοπρόσοψης 10εκ., καθώς και αντλιών θερμότητας ψύξης θέρμανσης."
+   ]
+  },
+  {
+   "address": "ΑΝΑΣΤΑΣΕΩΣ 55, ΧΟΛΑΡΓΟΣ",
+   "specs_el": "ΤΕΤΡΑΩΡΟΦΗ ΠΟΛΥΚΑΤΟΙΚΙΑ ΕΠΙ PILOTIS ΜΕ ΥΠΟΓΕΙΟ & ΔΩΜΑ",
+   "description_el": null
+  }
+ ],
+ "images": [
+  {
+   "alt": "2ΕΥΓΕΙΟΣ_LOGO_CURRENT_edited.png",
+   "full": "https://static.wixstatic.com/media/3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png"
+  },
+  {
+   "alt": "1.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_035de84e240e4798bbf304f0c8ea16ec~mv2.jpg"
+  },
+  {
+   "alt": "5.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_6c0fdf43745742ce91b86719e43ff394~mv2.jpg"
+  },
+  {
+   "alt": "7.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_8ece56a16b73450e809bc9f9cf24817b~mv2.jpg"
+  },
+  {
+   "alt": "8.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_a7635a57677148f5afadf377d66541b7~mv2.jpg"
+  },
+  {
+   "alt": "3.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_dd78497328734d1eaac78de7d4e19ce7~mv2.jpg"
+  },
+  {
+   "alt": "2.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_21a51c6c829d4098a8dbaad6e689fbda~mv2.jpg"
+  },
+  {
+   "alt": "4.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_5aa4c5ceb5614b5d8a4aef7e5a144d05~mv2.jpg"
+  },
+  {
+   "alt": "AZSAS-2.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_56c493d0f6464ae493d5800efb3c3bcd~mv2.jpg"
+  }
+ ],
+ "links": [
+  "https://www.goodland.gr/",
+  "https://www.goodland.gr/#comp-kzgxy1v4",
+  "https://www.goodland.gr/#comp-kzgxy1va3",
+  "https://www.goodland.gr/#comp-kzgxy1vf1"
+ ],
+ "notes": [
+  "2 κτήρια",
+  "ΣΠΑΣΜΕΝΟΙ ΣΥΝΔΕΣΜΟΙ: 3 links προς '/#comp-kzgxy1v4' κ.λπ. - εσωτερικά Wix component id που δεν υπάρχουν στην αρχική. Οδηγούν στο πουθενά.",
+  "Το 'ΑΝΑΣΤΑΣΕΩΣ 55' δεν έχει περιγραφή",
+  "Μόνο ελληνικά",
+  "ΚΑΝΕΝΑΣ H1",
+  "Χωρίς meta description"
+ ]
+}

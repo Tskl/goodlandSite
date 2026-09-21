@@ -1,0 +1,621 @@
+/* ═══════════════════════════════════════════════════════════════════
+   GOODLAND — design system
+   Παλέτα: σκούρα εκδοχή του λογότυπου. Τυπογραφία: Manrope, μία οικογένεια.
+   Αρχές: η φωτογραφία μιλάει, το κείμενο ψιθυρίζει. Καμία στρογγυλή γωνία,
+   καμία σκιά, γραμμές τριχοειδείς, ένα μόνο accent ανά οθόνη.
+   ═══════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* χρώμα */
+  --bg:        #151411;
+  --bg-raised: #1a1916;
+  --ink:       #F4F2EE;
+  --ink-dim:   #B8B5AE;
+  --ink-faint: #9C978C;   /* τα μικρά γκρι γράμματα θέλουν αέρα */
+  --line:      #2A2825;
+  --line-soft: #211F1C;
+  --accent:    #FFFF76;   /* γέμισμα κουμπιών */
+  --hi:        #FFFF76;   /* κείμενο που πρέπει να ξεχωρίσει */
+  --blue:      #85ABFF;
+  --red:       #FF4843;
+  /* τα τέσσερα του σήματος, ρυθμισμένα για σκούρο φόντο */
+  --c1: #6E8CFF;  --c2: #FF6B66;  --c3: #FFE14A;  --c4: #B9B5AC;
+  --paper: var(--bg-raised);
+  --shadow:    none;
+
+  /* ρυθμός */
+  --step--1: clamp(0.78rem, 0.76rem + 0.1vw, 0.83rem);
+  --step-0:  clamp(0.95rem, 0.92rem + 0.15vw, 1.02rem);
+  --step-1:  clamp(1.15rem, 1.05rem + 0.4vw, 1.4rem);
+  --step-2:  clamp(1.5rem, 1.25rem + 1.1vw, 2.2rem);
+  --step-3:  clamp(2.1rem, 1.5rem + 2.6vw, 3.8rem);
+  --step-4:  clamp(2.6rem, 1.6rem + 4.4vw, 5.6rem);
+
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 40px;
+  --space-5: 64px;
+  --space-6: 96px;
+  --space-7: 140px;
+
+  --gutter: 24px;
+  --maxw: 1320px;
+  --header-h: 72px;    /* συνολικό ύψος της κολλημένης κεφαλίδας */
+  --header-row: 72px;  /* μόνο η σειρά με το λογότυπο */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* Εναλλακτικό ανοιχτό θέμα — δοκίμασέ το με <html data-theme="light"> */
+[data-theme='light'] {
+  --bg:        #FAF6EC;   /* χαρτί, όχι γκρι */
+  --bg-raised: #F1EADB;
+  --ink:       #16150F;
+  --ink-dim:   #4A463E;
+  --ink-faint: #5E5A51;
+  --line:      #DCD7CC;
+  --line-soft: #E7E2D8;
+  --accent:    #1B1A16;   /* μαύρα κουμπιά πάνω σε κρεμ */
+  --hi:        #6E6A11;   /* το κίτρινο του σήματος, σκουρεμένο ώστε να διαβάζεται */
+  --blue:      #23439F;
+  --red:       #B32B26;
+  /* στο φωτεινό τα ίδια χρώματα, σκουρεμένα ώστε να διαβάζονται */
+  --c1: #2B45C9;  --c2: #C9342F;  --c3: #9A7A00;  --c4: #8A857B;
+  --paper: #FFFFFF;
+  --shadow:    0 1px 0 rgba(20,18,10,0.05);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+/* Καμία εικόνα και κανένα πλέγμα δεν βγαίνει έξω από την οθόνη. */
+img, svg, video, canvas { max-width: 100%; }
+.grid > *, .detail > *, .unit__body > *, .contact-grid > *, .ub > * { min-width: 0; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { animation: none !important; transition: none !important; } }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: var(--step-0);
+  line-height: 1.65;
+  font-feature-settings: 'kern' 1;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 60px;
+}
+@media (min-width: 900px) { body { padding-bottom: 0; } }
+
+::selection { background: var(--accent); color: var(--bg); }
+
+/* ── Τυπογραφία ─────────────────────────────────────────────────
+   Μία γεωμετρική οικογένεια. Η ιεραρχία βγαίνει από βάρος, μέγεθος
+   και tracking — όχι από δεύτερη γραμματοσειρά.                    */
+h1, h2, h3, .serif, .display {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  margin: 0;
+  text-transform: none;
+}
+h1, h2, .display {
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 1.03;
+}
+h3, .serif { font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; }
+h1 { font-size: var(--step-3); }
+h2 { font-size: var(--step-2); }
+h3 { font-size: var(--step-1); }
+
+p { margin: 0 0 1.1em; max-width: 68ch; }
+a { color: inherit; text-decoration: none; }
+strong { font-weight: 600; }
+
+/* μικρο-ετικέτα: το σήμα κατατεθέν των καλών real estate sites */
+.label {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--ink-dim);
+  font-weight: 600;
+}
+.num { font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+.dim { color: var(--ink-dim); }
+.lead { font-size: var(--step-1); line-height: 1.45; color: var(--ink-dim); max-width: 46ch; }
+
+/* ── Δομή ───────────────────────────────────────────────────────── */
+.container { width: 100%; max-width: var(--maxw); margin-inline: auto; padding-inline: var(--gutter); }
+.bleed { width: 100%; }
+section { padding-block: var(--space-6); }
+section + section { border-top: 1px solid var(--line-soft); }
+@media (max-width: 720px) { section { padding-block: var(--space-5); } }
+
+.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
+
+/* ── Header ─────────────────────────────────────────────────────── */
+.header {
+  position: sticky; top: 0; z-index: 50;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: saturate(140%) blur(14px);
+  border-bottom: 1px solid var(--line-soft);
+}
+.header__inner {
+  height: var(--header-row);
+  display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: var(--space-3);
+}
+.header__brand { grid-column: 2; display: flex; align-items: center; }
+.header__brand .logo { height: 26px; width: auto; display: block; }
+@media (max-width: 939px) { .header__brand .logo { height: 23px; } }
+
+/* το λογότυπο παίρνει το χρώμα του κειμένου — δουλεύει και στα δύο θέματα */
+.logo { color: var(--ink); }
+.logo--stack { height: 72px; width: auto; display: block; }
+.header__nav { display: none; grid-column: 1; gap: var(--space-3); }
+.header__actions { display: none; grid-column: 3; justify-content: flex-end; align-items: center; gap: var(--space-3); }
+.header__nav a, .header__actions a { position: relative; padding-block: 4px; }
+.header__nav a::after, .header__actions a.underline::after {
+  content: ''; position: absolute; left: 0; right: 0; bottom: 0;
+  border-bottom: 1px solid currentColor; transform: scaleX(0); transform-origin: left;
+  transition: transform 0.35s var(--ease);
+}
+.header__nav a:hover::after { transform: scaleX(1); }
+.header__nav a:hover, .header__actions a:hover { color: var(--ink); }
+@media (min-width: 940px) { .header__nav, .header__actions { display: flex; } }
+.header__tel { color: var(--hi); }
+.header__tel:hover { color: var(--hi); opacity: 0.8; }
+@media (max-width: 1099px) { .header__hide-sm { display: none; } }
+
+/* ── Διακόπτες γλώσσας και θέματος ──────────────────────────────── */
+.ctl { display: inline-flex; align-items: center; gap: 8px; margin-left: 4px; }
+.ctl__lang {
+  font-size: 0.75rem; letter-spacing: 0.06em; font-weight: 600;
+  color: var(--ink-dim); padding: 3px 2px; transition: color 0.25s var(--ease);
+}
+.ctl__lang:hover { color: var(--ink); }
+.ctl__lang.on { color: var(--ink); border-bottom: 1px solid var(--hi); }
+.ctl__sep { width: 1px; height: 11px; background: var(--line); display: inline-block; }
+.ctl__theme {
+  background: transparent; border: 1px solid var(--line); color: var(--ink-dim);
+  width: 28px; height: 28px; display: grid; place-items: center; cursor: pointer;
+  font-size: 0.82rem; line-height: 1; padding: 0; margin-left: 4px;
+  transition: border-color 0.25s var(--ease), color 0.25s var(--ease);
+}
+.ctl__theme:hover { border-color: var(--ink-dim); color: var(--ink); }
+.ctl__sun { display: block; transform: translateY(-0.5px); }
+
+/* Στο κινητό η κεφαλίδα κρύβει τα πάντα· οι διακόπτες πρέπει να μείνουν. */
+@media (max-width: 939px) {
+  .header__actions { display: flex; }
+  .header__actions > a:not(.header__tel) { display: none; }
+  .header__tel { display: none; }
+}
+
+/* Δεύτερη σειρά πλοήγησης — μόνο στο κινητό, κυλιόμενη οριζόντια. */
+.subnav { display: none; }
+@media (max-width: 939px) {
+  .subnav {
+    display: flex; gap: var(--space-3); align-items: center;
+    padding: 0 var(--gutter) 11px;
+    overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+    border-top: 1px solid var(--line-soft); padding-top: 11px;
+  }
+  .subnav::-webkit-scrollbar { display: none; }
+  .subnav a { white-space: nowrap; padding-block: 2px; }
+  .subnav a:hover { color: var(--ink); }
+  :root { --header-row: 58px; --header-h: 105px; }
+}
+
+/* μπάρα κλήσης κινητού */
+.callbar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;
+  background: var(--accent); color: var(--bg);
+  text-align: center; padding: 15px;
+  font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.16em; font-weight: 600;
+}
+@media (min-width: 900px) { .callbar { display: none; } }
+
+/* ── Κουμπιά ────────────────────────────────────────────────────── */
+.btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 14px 26px; border: 1px solid var(--accent); background: var(--accent); color: var(--bg);
+  font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.16em; font-weight: 600;
+  cursor: pointer; transition: opacity 0.3s var(--ease);
+}
+.btn:hover { opacity: 0.86; }
+.btn--ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+.btn--ghost:hover { border-color: var(--ink-dim); opacity: 1; }
+.btn--text {
+  background: transparent; border: 0; border-bottom: 1px solid currentColor;
+  color: var(--ink); padding: 0 0 6px;
+}
+
+/* ── Breadcrumb ─────────────────────────────────────────────────── */
+.crumbs { padding-top: var(--space-4); color: var(--ink-dim); font-size: 0.78rem; letter-spacing: 0.06em; }
+.crumbs a:hover { color: var(--ink); }
+.crumbs span { margin-inline: 8px; color: var(--line); }
+
+/* ── Hero ───────────────────────────────────────────────────────── */
+.hero { position: relative; min-height: min(86vh, 820px); display: flex; align-items: flex-end; overflow: hidden; }
+.hero__bg { position: absolute; inset: 0; }
+.hero__bg img { width: 100%; height: 100%; object-fit: cover; animation: slowzoom 24s var(--ease) forwards; }
+.hero__scrim { position: absolute; inset: 0; background: linear-gradient(to top, var(--bg) 2%, color-mix(in srgb, var(--bg) 55%, transparent) 42%, color-mix(in srgb, var(--bg) 18%, transparent) 100%); }
+.hero__inner { position: relative; padding-block: var(--space-6) var(--space-5); }
+.hero h1 { max-width: 24ch; margin-bottom: var(--space-3); }
+@keyframes slowzoom { from { transform: scale(1.06); } to { transform: scale(1); } }
+
+/* ── Grid καρτών ────────────────────────────────────────────────── */
+.grid { display: grid; gap: var(--space-4) var(--space-3); grid-template-columns: 1fr; margin-top: var(--space-4); }
+@media (min-width: 620px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1040px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+.grid--wide { grid-template-columns: 1fr; }
+@media (min-width: 820px) { .grid--wide { grid-template-columns: repeat(2, 1fr); gap: var(--space-5) var(--space-4); } }
+
+/* ── Φίλτρα / toolbar ───────────────────────────────────────────── */
+.toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2) var(--space-4); padding-block: var(--space-3); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.toolbar__group { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.toolbar select {
+  background: transparent; color: var(--ink); border: 0; border-bottom: 1px solid var(--line);
+  font: inherit; font-size: var(--step--1); padding: 5px 20px 5px 0; cursor: pointer;
+  appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: right 6px center, right 2px center; background-size: 4px 4px, 4px 4px; background-repeat: no-repeat;
+}
+.toolbar select:focus { outline: none; border-bottom-color: var(--hi); }
+.toolbar__count { margin-left: auto; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  background: transparent; border: 1px solid var(--line); color: var(--ink-dim);
+  padding: 7px 14px; font: inherit; font-size: var(--step--1); cursor: pointer;
+  transition: border-color 0.3s var(--ease), color 0.3s var(--ease);
+}
+.chip:hover { border-color: var(--ink-faint); color: var(--ink); }
+.chip--on { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+
+.switch { display: inline-flex; gap: var(--space-3); }
+.switch button {
+  background: 0; border: 0; padding: 0 0 6px; font: inherit;
+  font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600;
+  color: var(--ink-dim); border-bottom: 1px solid transparent; cursor: pointer;
+}
+.switch button.on { color: var(--ink); border-bottom-color: var(--hi); }
+
+/* ── Στατιστικά ─────────────────────────────────────────────────── */
+.stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-3); margin-top: var(--space-5); }
+@media (min-width: 720px) { .stats { grid-template-columns: repeat(4, 1fr); } }
+.stats div { border-top: 1px solid var(--line); padding-top: 12px; }
+.stats b { display: block; font-family: var(--font-sans), sans-serif; font-weight: 800; letter-spacing: -0.03em; font-size: var(--step-2); font-variant-numeric: tabular-nums; line-height: 1; }
+
+/* ── Σελίδα ακινήτου ────────────────────────────────────────────── */
+.ph { display: grid; gap: var(--space-4); align-items: end; grid-template-columns: 1fr; padding-block: var(--space-4) var(--space-4); }
+@media (min-width: 900px) { .ph { grid-template-columns: 1.4fr 1fr; } }
+.ph__price { font-family: var(--font-sans), sans-serif; font-weight: 700; letter-spacing: -0.02em; font-size: var(--step-2); font-variant-numeric: tabular-nums; }
+.ph__side { display: flex; flex-direction: column; gap: 10px; }
+
+.table { width: 100%; border-collapse: collapse; font-size: var(--step--1); }
+.table th { text-align: left; padding: 10px 14px 10px 0; border-bottom: 1px solid var(--line); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-dim); white-space: nowrap; }
+.table td { padding: 14px 14px 14px 0; border-bottom: 1px solid var(--line-soft); white-space: nowrap; }
+.table td.r, .table th.r { text-align: right; padding-right: 0; }
+.table tr.off td { color: var(--ink-faint); }
+.table-wrap { overflow-x: auto; margin-top: var(--space-3); }
+
+.unit { border-bottom: 1px solid var(--line-soft); scroll-margin-top: 90px; }
+.unit summary { cursor: pointer; list-style: none; padding: 18px 0; display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: baseline; }
+.unit summary::-webkit-details-marker { display: none; }
+.unit summary:hover { color: var(--hi); }
+.unit__t { font-family: var(--font-sans), sans-serif; font-weight: 700; letter-spacing: -0.02em; font-size: var(--step-1); }
+.unit__p { margin-left: auto; font-variant-numeric: tabular-nums; }
+.unit__body { padding-bottom: var(--space-3); display: grid; gap: var(--space-3); grid-template-columns: 1fr; }
+@media (min-width: 820px) { .unit__body { grid-template-columns: 1fr 1fr; gap: var(--space-4); } }
+
+.specs { margin: 0; display: grid; grid-template-columns: 1fr auto; }
+.specs dt, .specs dd { margin: 0; padding: 9px 0; border-bottom: 1px solid var(--line-soft); font-size: var(--step--1); }
+.specs dt { color: var(--ink-dim); }
+.specs dd { text-align: right; font-variant-numeric: tabular-nums; }
+
+.feats { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 10px; }
+.feats li { font-size: var(--step--1); color: var(--ink-dim); border-bottom: 1px solid var(--line); padding-bottom: 3px; }
+
+.warn { color: var(--red); font-size: var(--step--1); }
+
+/* ── Γκαλερί ────────────────────────────────────────────────────── */
+.gallery { display: grid; gap: 10px; grid-template-columns: repeat(2, 1fr); }
+@media (min-width: 720px) { .gallery { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 1100px) { .gallery { grid-template-columns: repeat(4, 1fr); } }
+.gallery__item { padding: 0; border: 0; background: var(--bg-raised); cursor: zoom-in; aspect-ratio: 4 / 3; overflow: hidden; }
+.gallery__item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.9s var(--ease), opacity 0.4s; }
+.gallery__item:hover img { transform: scale(1.05); }
+.lightbox { position: fixed; inset: 0; z-index: 100; background: color-mix(in srgb, var(--bg) 96%, transparent); display: flex; align-items: center; justify-content: center; cursor: zoom-out; }
+.lightbox__close { position: absolute; top: 20px; right: 24px; background: 0; border: 0; color: var(--ink); font-size: 1.4rem; cursor: pointer; }
+.lightbox__count { position: absolute; bottom: 22px; color: var(--ink-faint); font-size: 0.7rem; letter-spacing: 0.14em; }
+
+/* ── Φόρμα ──────────────────────────────────────────────────────── */
+.form { max-width: 560px; }
+.form__row { display: grid; gap: var(--space-2); grid-template-columns: 1fr; }
+@media (min-width: 560px) { .form__row { grid-template-columns: 1fr 1fr; } }
+.field { display: block; margin-bottom: var(--space-2); }
+.field > span { display: block; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-dim); font-weight: 600; margin-bottom: 7px; }
+.field em { color: var(--hi); font-style: normal; }
+.field input, .field textarea {
+  width: 100%; padding: 12px 0; font: inherit; font-size: var(--step-0);
+  background: transparent; color: var(--ink);
+  border: 0; border-bottom: 1px solid var(--line); border-radius: 0;
+  transition: border-color 0.3s var(--ease);
+}
+.field input:focus, .field textarea:focus { outline: none; border-bottom-color: var(--hi); }
+.check { display: flex; gap: 12px; align-items: flex-start; margin: var(--space-2) 0 var(--space-3); font-size: var(--step--1); color: var(--ink-dim); }
+.check input { margin-top: 4px; accent-color: var(--accent); width: 16px; height: 16px; flex: none; }
+.check a { border-bottom: 1px solid var(--line); }
+.hp { position: absolute; left: -9999px; }
+.form__ok { border-top: 1px solid var(--hi); padding-top: var(--space-3); max-width: 560px; }
+button[disabled] { opacity: 0.5; cursor: wait; }
+.contact-grid { display: grid; gap: var(--space-5); grid-template-columns: 1fr; }
+@media (min-width: 900px) { .contact-grid { grid-template-columns: 0.8fr 1.2fr; gap: var(--space-6); } }
+
+/* ── Υπηρεσίες / editorial ──────────────────────────────────────── */
+.svc { display: grid; gap: 0; grid-template-columns: 1fr; margin-top: var(--space-4); border-top: 1px solid var(--line); }
+.svc a { display: grid; grid-template-columns: auto 1fr auto; gap: var(--space-3); align-items: baseline; padding: var(--space-3) 0; border-bottom: 1px solid var(--line-soft); transition: padding-left 0.4s var(--ease); }
+.svc a:hover { padding-left: 10px; }
+.svc__n { color: var(--ink-faint); font-size: 0.7rem; letter-spacing: 0.14em; }
+.svc__t { font-family: var(--font-sans), sans-serif; font-weight: 700; letter-spacing: -0.02em; font-size: var(--step-1); }
+.svc__d { color: var(--ink-dim); font-size: var(--step--1); grid-column: 2; }
+.svc__arrow { color: var(--ink-faint); }
+
+/* ── Footer ─────────────────────────────────────────────────────── */
+.footer { border-top: 1px solid var(--line); padding-block: var(--space-5) var(--space-4); color: var(--ink-dim); font-size: var(--step--1); }
+.footer__grid { display: grid; gap: var(--space-4); grid-template-columns: 1fr; }
+@media (min-width: 760px) { .footer__grid { grid-template-columns: 1.5fr 1fr 1fr; } }
+.footer a:hover { color: var(--ink); }
+.footer__bottom { margin-top: var(--space-5); padding-top: var(--space-2); border-top: 1px solid var(--line-soft); color: var(--ink-faint); font-size: 0.72rem; }
+
+/* ── Είσοδος στο viewport ───────────────────────────────────────── */
+@keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+.rise { animation: rise 0.8s var(--ease) both; }
+
+/* ═══════════════════════════════════════════════════════════════════
+   ΚΑΡΤΑ — μοτίβο JamesEdition, χρώματα Goodland.
+   Τιμή πρώτη, στοιχεία με άνω τελείες, φωτογραφία με carousel.
+   ═══════════════════════════════════════════════════════════════════ */
+.jc { display: flex; flex-direction: column; }
+.jc__link { display: block; }
+
+.cm {
+  position: relative; aspect-ratio: 16 / 10; overflow: hidden;
+  background: var(--bg-raised); isolation: isolate;
+}
+.cm--empty { aspect-ratio: 16 / 10; background: var(--bg-raised); }
+.cm__img {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+  opacity: 0; transition: opacity 0.45s var(--ease), transform 1.1s var(--ease);
+}
+.cm__img--on { opacity: 1; }
+.jc:hover .cm__img--on { transform: scale(1.03); }
+
+.cm__badges { position: absolute; top: 12px; left: 12px; display: flex; gap: 6px; flex-wrap: wrap; z-index: 2; max-width: calc(100% - 24px); }
+.cm__badge {
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px);
+  color: var(--ink); padding: 5px 10px;
+  font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; font-weight: 600;
+  border: 1px solid color-mix(in srgb, var(--ink) 14%, transparent);
+}
+.cm__badge:first-child { color: var(--hi); border-color: color-mix(in srgb, var(--hi) 45%, transparent); }
+
+.cm__count {
+  position: absolute; right: 12px; bottom: 12px; z-index: 2;
+  background: color-mix(in srgb, var(--bg) 72%, transparent); backdrop-filter: blur(8px);
+  color: var(--ink); padding: 4px 9px; font-size: 0.68rem; font-variant-numeric: tabular-nums;
+}
+.cm__hint {
+  position: absolute; left: 12px; bottom: 12px; z-index: 2;
+  color: var(--ink); background: color-mix(in srgb, var(--bg) 72%, transparent); backdrop-filter: blur(8px);
+  padding: 5px 10px; font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.1em;
+  opacity: 0; transform: translateY(6px); transition: all 0.35s var(--ease);
+}
+.jc:hover .cm__hint { opacity: 1; transform: none; }
+
+.cm__nav {
+  position: absolute; top: 50%; translate: 0 -50%; z-index: 3;
+  width: 34px; height: 34px; border: 0; cursor: pointer;
+  background: color-mix(in srgb, var(--bg) 78%, transparent); backdrop-filter: blur(8px);
+  color: var(--ink); font-size: 1.3rem; line-height: 1;
+  opacity: 0; transition: opacity 0.3s var(--ease);
+  display: grid; place-items: center;
+}
+.cm__nav--prev { left: 10px; }
+.cm__nav--next { right: 10px; }
+.jc:hover .cm__nav { opacity: 1; }
+.cm__nav:hover { background: var(--accent); color: var(--bg); }
+@media (hover: none) { .cm__nav { opacity: 1; } .cm__hint { display: none; } }
+
+.jc__body { padding-top: 14px; display: flex; flex-direction: column; gap: 6px; }
+.jc__top { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.jc__price { font-size: 1.05rem; font-weight: 600; font-variant-numeric: tabular-nums; letter-spacing: -0.015em; }
+.jc__price:hover { color: var(--hi); }
+.jc__state { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; white-space: nowrap; }
+.jc__state.is-on { color: var(--hi); }
+.jc__state.is-off { color: var(--ink-faint); }
+.jc__facts { font-size: 0.88rem; color: var(--ink); }
+.jc__where { font-size: 0.88rem; color: var(--ink-dim); }
+.jc__where:hover { color: var(--ink); }
+.jc__foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 4px; padding-top: 10px; border-top: 1px solid var(--line-soft); }
+.jc__chips { display: flex; flex-wrap: wrap; gap: 4px 8px; }
+.jc__chips span { font-size: 0.76rem; color: var(--ink-dim); }
+.jc__chips span + span::before { content: '·'; margin-right: 8px; }
+.jc__psqm { font-size: 0.76rem; color: var(--ink-dim); white-space: nowrap; }
+.jc--off .cm__img { filter: saturate(0.35); opacity: 0; }
+.jc--off .cm__img--on { opacity: 0.5; }
+.jc--off:hover .cm__img--on { opacity: 0.78; }
+
+/* πυκνότερο grid, όπως στα catalogue sites */
+.grid { display: grid; gap: var(--space-4) var(--space-3); grid-template-columns: 1fr; margin-top: var(--space-4); }
+@media (min-width: 640px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1120px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+
+/* ── Eyebrow + hero, μοτίβο IYC ─────────────────────────────────── */
+.eyebrow {
+  font-size: 0.78rem; font-weight: 300; text-transform: uppercase;
+  letter-spacing: 0.22em; color: var(--ink-dim);
+}
+.hero h1 { font-size: var(--step-4); max-width: 20ch; }
+.hero__inner { padding-block: var(--space-7) var(--space-5); }
+
+/* ── Sticky filter bar ──────────────────────────────────────────── */
+.filterbar {
+  position: sticky; top: var(--header-h); z-index: 40;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: saturate(140%) blur(14px);
+  border-block: 1px solid var(--line-soft);
+  margin-bottom: var(--space-4);
+}
+
+/* ── Sticky rail σελίδας ακινήτου ───────────────────────────────── */
+.detail { display: grid; gap: var(--space-5); grid-template-columns: 1fr; }
+@media (min-width: 1000px) { .detail { grid-template-columns: 1fr 360px; gap: var(--space-6); align-items: start; } }
+.rail { position: sticky; top: calc(var(--header-h) + 28px); border: 1px solid var(--line); padding: var(--space-3); }
+.rail__price { font-family: var(--font-sans), sans-serif; font-weight: 700; letter-spacing: -0.02em; font-size: var(--step-2); font-variant-numeric: tabular-nums; }
+.rail hr { border: 0; border-top: 1px solid var(--line-soft); margin: var(--space-2) 0; }
+
+
+/* ── Φωτεινό θέμα: όπου το σκούρο ήταν δεδομένο ──────────────────── */
+[data-theme='light'] .header {
+  background: color-mix(in srgb, var(--bg) 90%, transparent);
+}
+[data-theme='light'] .jc__facts { color: var(--ink); }
+[data-theme='light'] .cm { background: var(--bg-raised); }
+[data-theme='light'] .cm__badge,
+[data-theme='light'] .cm__count,
+[data-theme='light'] .cm__hint,
+[data-theme='light'] .cm__nav {
+  background: color-mix(in srgb, #FFFFFF 78%, transparent);
+  border-color: color-mix(in srgb, var(--ink) 12%, transparent);
+}
+[data-theme='light'] .lightbox { background: color-mix(in srgb, #16150F 92%, transparent); }
+[data-theme='light'] .lightbox__close,
+[data-theme='light'] .lightbox__count { color: #F6F4EF; }
+[data-theme='light'] .table thead th { color: var(--ink-dim); }
+[data-theme='light'] .warn { background: color-mix(in srgb, var(--red) 8%, transparent); }
+
+/* Το hero σε φωτεινό: η φωτογραφία σβήνει σε κρεμ, το κείμενο μένει σκούρο. */
+[data-theme='light'] .hero__scrim {
+  background: linear-gradient(to top,
+    var(--bg) 4%,
+    color-mix(in srgb, var(--bg) 78%, transparent) 38%,
+    color-mix(in srgb, var(--bg) 30%, transparent) 100%);
+}
+
+/* Στο κινητό η μπάρα φίλτρων είναι πολύ ψηλή για να κολλάει — τρώει την οθόνη. */
+@media (max-width: 939px) {
+  .filterbar { position: static; backdrop-filter: none; }
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   ΔΙΑΜΕΡΙΣΜΑΤΑ — το καθένα ξεχωριστά, με την κάτοψή του μεγάλη
+   ═══════════════════════════════════════════════════════════════════ */
+
+.units { display: grid; gap: var(--space-6); margin-top: var(--space-4); }
+
+.ub {
+  display: grid; gap: var(--space-3);
+  padding-top: var(--space-4);
+  border-top: 2px solid var(--line);
+  scroll-margin-top: 130px;
+}
+.ub--off { opacity: 0.66; }
+.ub--off:hover { opacity: 1; }
+
+.ub__head { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+.ub__no { font-size: 0.78rem; letter-spacing: 0.1em; color: var(--ink-faint); font-weight: 600; }
+.ub__title { font-size: var(--step-1); font-weight: 700; letter-spacing: -0.02em; }
+.ub__state { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; white-space: nowrap; margin-left: auto; }
+.ub__state.is-on { color: var(--hi); }
+.ub__state.is-on::before { content: '●'; font-size: 0.55em; vertical-align: middle; margin-right: 6px; }
+.ub__state.is-off { color: var(--ink-faint); }
+
+.ub__meta {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap;
+  padding-bottom: var(--space-2); border-bottom: 1px solid var(--line-soft);
+}
+.ub__facts { font-size: 0.94rem; color: var(--ink-dim); }
+.ub__price {
+  display: inline-flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
+  font-size: var(--step-1); font-weight: 700; letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+.ub__psqm { font-size: 0.78rem; font-weight: 500; color: var(--ink-dim); letter-spacing: 0; }
+
+.ub__cols { display: grid; gap: var(--space-3); grid-template-columns: 1fr; }
+@media (min-width: 760px) { .ub__cols { grid-template-columns: minmax(0, 320px) minmax(0, 1fr); gap: var(--space-4); } }
+.ub__side { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.ub__desc { font-size: var(--step--1); margin: 0; }
+.ub__cta { margin: 0; }
+
+/* ── Κατόψεις: μεγάλες, στη φυσική τους αναλογία ────────────────── */
+.plans { display: grid; gap: 10px; }
+.plans__label { margin-bottom: -2px; }
+.plan {
+  position: relative; padding: 0; border: 1px solid var(--line); cursor: zoom-in;
+  background: #fff; display: block; width: 100%; overflow: hidden;
+  transition: border-color 0.3s var(--ease);
+}
+.plan:hover { border-color: var(--ink-dim); }
+.plan__img { width: 100%; height: auto; display: block; }
+.plan__code {
+  position: absolute; left: 0; bottom: 0;
+  background: #16150F; color: #FAF6EC;
+  font-size: 0.68rem; letter-spacing: 0.08em; font-weight: 600; padding: 4px 9px;
+}
+.lightbox--plan { background: color-mix(in srgb, #16150F 94%, transparent); }
+.lightbox--plan .lightbox__close, .lightbox--plan .lightbox__count { color: #FAF6EC; }
+
+/* ── Σύνοψη πίνακα ──────────────────────────────────────────────── */
+.overview { margin-top: var(--space-3); border-top: 1px solid var(--line-soft); border-bottom: 1px solid var(--line-soft); }
+.overview > summary {
+  cursor: pointer; list-style: none; padding: 14px 0;
+  display: flex; align-items: center; gap: 10px;
+}
+.overview > summary::-webkit-details-marker { display: none; }
+.overview > summary::after { content: '+'; margin-left: auto; font-size: 1rem; line-height: 1; }
+.overview[open] > summary::after { content: '–'; }
+.overview > summary:hover { color: var(--ink); }
+.overview .table-wrap { padding-bottom: var(--space-3); }
+
+/* ── Κάρτα έργου / διαμόρφωσης ──────────────────────────────────── */
+.jc__price--plain { font-size: 1rem; font-weight: 700; letter-spacing: -0.02em; }
+
+/* ═══════════════════════════════════════════════════════════════════
+   ΤΣΑΧΠΙΝΙΑ — τα χρώματα του σήματος, με το σταγονόμετρο
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* οι αριθμοί των ενοτήτων παίρνουν τη σειρά των τετραγώνων */
+.svc a:nth-child(4n+1) .svc__n { color: var(--c1); }
+.svc a:nth-child(4n+2) .svc__n { color: var(--c2); }
+.svc a:nth-child(4n+3) .svc__n { color: var(--c3); }
+.svc a:nth-child(4n+4) .svc__n { color: var(--c4); }
+
+/* μικρό τετραγωνάκι πάνω από κάθε στατιστικό */
+.stats > div { position: relative; padding-top: 14px; }
+.stats > div::before {
+  content: ''; position: absolute; top: 0; left: 0; width: 9px; height: 9px;
+}
+.stats > div:nth-child(1)::before { background: var(--c1); }
+.stats > div:nth-child(2)::before { background: var(--c2); }
+.stats > div:nth-child(3)::before { background: var(--c3); }
+.stats > div:nth-child(4)::before { background: var(--c4); }
+
+/* το eyebrow αποκτά μια γραμμή στο κίτρινο του σήματος */
+.eyebrow { position: relative; padding-left: 16px; }
+.eyebrow::before {
+  content: ''; position: absolute; left: 0; top: 0.45em; width: 8px; height: 8px;
+  background: var(--c3);
+}
+
+/* σύνδεσμοι κειμένου: υπογράμμιση στο χρώμα του σήματος */
+.prose a, .lead a { text-decoration: underline; text-decoration-color: var(--c3); text-underline-offset: 3px; text-decoration-thickness: 2px; }
+.prose a:hover, .lead a:hover { text-decoration-color: currentColor; }
+
+/* στο φωτεινό, οι κάρτες πατούν σε λευκό χαρτί για να ξεχωρίζουν */
+[data-theme='light'] .plan { background: var(--paper); }
+[data-theme='light'] .cm { background: #EDE6D7; }
+[data-theme='light'] .rail { background: var(--paper); }
+[data-theme='light'] .overview[open] { background: color-mix(in srgb, var(--paper) 60%, transparent); }

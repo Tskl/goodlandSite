@@ -1,0 +1,170 @@
+{
+ "path": "/verginas-130-agios-dimitrios",
+ "title": "Νεόδμητη Κατοικία στον Άγιο Δημήτριο | Ευγειος Goodland ΕΠΕ",
+ "meta": null,
+ "h1": [
+  "ΒΕΡΓΙΝΑΣ 130, ΑΓΙΟΣ ΔΗΜΗΤΡΙΟΣ"
+ ],
+ "building": {
+  "el": [
+   "- Πενταώροφη πολυκατοικία επί pilotis με υπόγειο & σοφίτα.",
+   "- Ενεργειακή κλάση Α.",
+   "- Κατασκευή υψηλών προδιαγραφών.",
+   "- Παράδοση υπό κατασκευή."
+  ],
+  "en": [
+   "- Five-storey apartment building with loft & basement.",
+   "- Energy class A.",
+   "- High standard construction.",
+   "- Delivery under construction."
+  ]
+ },
+ "units": [
+  {
+   "floor_el": "1ος ΟΡΟΦΟΣ",
+   "floor_en": "1st FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ 69 Τ.Μ.",
+   "title_en": "APARTMENT 69 M2",
+   "sqm": 69,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.",
+   "desc_en": "It consists of 2 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.",
+   "status_raw": "ΑΓΝΩΣΤΟ"
+  },
+  {
+   "floor_el": "4ος ΟΡΟΦΟΣ",
+   "floor_en": "4TH FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ 81 Τ.Μ.",
+   "title_en": "APARTMENT 81 M2",
+   "sqm": 81,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.",
+   "desc_en": "It consists of 2 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.",
+   "status_raw": "ΑΓΝΩΣΤΟ"
+  },
+  {
+   "floor_el": "4ος ΟΡΟΦΟΣ",
+   "floor_en": "4TH FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ 90 Τ.Μ.",
+   "title_en": "APARTMENT 90 M2",
+   "sqm": 90,
+   "desc_el": "Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.",
+   "desc_en": "It consists of 3 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.",
+   "status_raw": "ΑΓΝΩΣΤΟ"
+  },
+  {
+   "floor_el": "5ος-6ος ΟΡΟΦΟΣ",
+   "floor_en": "5TH-6TH FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ ΜΕ ΣΟΦΙΤΑ 98 Τ.Μ.",
+   "title_en": "APARTMENT WITH LOFT 98 M2",
+   "sqm": 98,
+   "desc_el": "Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ στο υπόγειο, αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.",
+   "desc_en": "It consists of 3 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space in the underground parking area, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators",
+   "status_raw": "ΑΓΝΩΣΤΟ"
+  },
+  {
+   "floor_el": "5ος-6ος ΟΡΟΦΟΣ",
+   "floor_en": "5th-6th FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ ΜΕ ΣΟΦΙΤΑ 114 Τ.Μ.",
+   "title_en": "APARTMENT WITH LOFT 114 M2",
+   "sqm": 114,
+   "desc_el": "Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει δύο θέσεις πάρκινγκ (μία στο υπόγειο και μία στο ισόγειο-pilotis), αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.",
+   "desc_en": "It consists of 3 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has two parking spaces (one in the underground parking area and one in the ground-floor covered parking - pilotis), a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.",
+   "status_raw": "ΑΓΝΩΣΤΟ"
+  },
+  {
+   "floor_el": "5ος-6ος ΟΡΟΦΟΣ",
+   "floor_en": "5th-6th FLOOR",
+   "title_el": "ΔΙΑΜΕΡΙΣΜΑ ΜΕ ΣΟΦΙΤΑ 77 Τ.Μ.",
+   "title_en": "APARTMENT WITH LOFT 77 M2",
+   "sqm": 77,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ στο υπόγειο, αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.",
+   "desc_en": "It consists of 2 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space in the underground parking area, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.",
+   "status_raw": "ΑΓΝΩΣΤΟ"
+  }
+ ],
+ "orphan_unit": {
+  "title_en": "APARTMENT 65 M2",
+  "desc_en": "It consists of 1 bedroom, living-dining room, kitchen and bathroom. It has wooden floors, thermal insulation frames, energy glazing, external thermal insulation shell, underfloor heating, window screens & power supply for electric vehicle charger..",
+  "note": "Μόνο αγγλικά, χωρίς ελληνικό αντίστοιχο, χωρίς όροφο, διαφορετικό ύφος προδιαγραφών"
+ },
+ "loose_values": {
+  "prices_unassigned": [
+   "440.000€",
+   "295.000€"
+  ],
+  "unavailable_labels_count": 4
+ },
+ "images": [
+  {
+   "alt": null,
+   "full": "https://static.wixstatic.com/media/11062b_1d0bcc469def47d2aa6a11ac417208db~mv2_d_2256_1269_s_2.jpg"
+  },
+  {
+   "alt": "2ΕΥΓΕΙΟΣ_LOGO_CURRENT_edited.png",
+   "full": "https://static.wixstatic.com/media/3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png"
+  },
+  {
+   "alt": "ChatGPT Image 18 Ιουν 2026, 09_59_43 π.μ..png",
+   "full": "https://static.wixstatic.com/media/3c238e_b1fb7f4e06f5440bb69f66f43537d390~mv2.png"
+  },
+  {
+   "alt": "Α2-ΝΕΟ.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_a0bf8ffd5c0f4f5ea705a27134a76f66~mv2.jpg"
+  },
+  {
+   "alt": "Δ1-ΝΕΟ.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_cc61a0e0434046fc97ce2f0ebcfcf28a~mv2.jpg"
+  },
+  {
+   "alt": "Δ2-ΝΕΟ.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_4567323841b045deaed883e0aef81168~mv2.jpg"
+  },
+  {
+   "alt": "ε1.png",
+   "full": "https://static.wixstatic.com/media/3c238e_06b1619304ce4f279371034b22bd40cf~mv2.png"
+  },
+  {
+   "alt": "στ1.png",
+   "full": "https://static.wixstatic.com/media/3c238e_eef0185ef8a6427bb712a54fda9dfb9e~mv2.png"
+  },
+  {
+   "alt": "ε2.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_d0ea2894791c4701b457e4d37719a492~mv2.jpg"
+  },
+  {
+   "alt": "στ2 (2).jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_9655e8cc32f84b8ca11c7deec78a5d0a~mv2.jpg"
+  },
+  {
+   "alt": "ε3β.png",
+   "full": "https://static.wixstatic.com/media/3c238e_af4a251b3d314098bd9af61acca25755~mv2.png"
+  },
+  {
+   "alt": "στ3.png",
+   "full": "https://static.wixstatic.com/media/3c238e_decb5e4ed97547599b8466f259084349~mv2.png"
+  },
+  {
+   "alt": "ChatGPT Image 18 Ιουν 2026, 09_59_43 π.μ..png",
+   "full": "https://static.wixstatic.com/media/3c238e_8f907d78d27e41e297e3ee83b3d3f935~mv2.png"
+  },
+  {
+   "alt": "ChatGPT Image 18 Ιουν 2026, 10_07_24 π.μ..png",
+   "full": "https://static.wixstatic.com/media/3c238e_0e366bbbdb3c4ab38ac2fdaede218d1c~mv2.png"
+  },
+  {
+   "alt": "ChatGPT Image 18 Ιουν 2026, 02_13_17 μ.μ..png",
+   "full": "https://static.wixstatic.com/media/3c238e_aecd1a2af6b849ae95deaec721efb171~mv2.png"
+  }
+ ],
+ "links": [
+  "https://www.goodland.gr/"
+ ],
+ "notes": [
+  "ΠΡΟΣΟΧΗ - Η ΠΙΟ ΜΠΕΡΔΕΜΕΝΗ ΣΕΛΙΔΑ. Το DOM δίνει τις δύο τιμές (440.000€, 295.000€) στο ΤΕΛΟΣ της σελίδας, αποσυνδεδεμένες από μονάδες. Δεν τις αντιστοίχισα - θα τις πεις εσύ.",
+  "Επίσης 4 ετικέτες 'Μη διαθέσιμο' σκορπισμένες, χωρίς σαφή αντιστοίχιση σε μονάδα.",
+  "ΟΡΦΑΝΟ: υπάρχει 'APARTMENT 65 M2' μόνο στα αγγλικά, χωρίς ελληνικό κείμενο, χωρίς όροφο, με διαφορετικές προδιαγραφές (ενδοδαπέδια θέρμανση, χωρίς πάρκινγκ/αποθήκη). Υπάρχει στ' αλήθεια;",
+  "6 μονάδες με πλήρη el/en: 69, 81, 90, 98 (σοφίτα), 114 (σοφίτα), 77 (σοφίτα)",
+  "Η περιγραφή κτηρίου λέει 'Πενταώροφη' αλλά υπάρχουν μονάδες σε 5ο-6ο όροφο",
+  "Τρεις εικόνες με alt 'ChatGPT Image 18 Ιουν 2026...' - παραγόμενες εικόνες με ονόματα εργαλείου",
+  "Χωρίς meta description"
+ ]
+}

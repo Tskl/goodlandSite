@@ -1,0 +1,299 @@
+{
+ "path": "/olympou-23-vrilhssia",
+ "title": "Νεόδμητη Κατοικία στα Βριλήσσια | Ευγειος Goodland ΕΠΕ",
+ "meta": null,
+ "h1": [
+  "ΟΛΥΜΠΟΥ 23, ΒΡΙΛΗΣΣΙΑ"
+ ],
+ "building": {
+  "el": [
+   "- Ανέγερση δύο τριώροφων Οικοδομών με Υπόγειο.",
+   "- Ενεργειακή κλάση Α.",
+   "- Κατασκευή υψηλών προδιαγραφών.",
+   "- Παράδοση υπό κατασκευή."
+  ],
+  "en": [
+   "- Construction of two three-story buildings with a basement.",
+   "- Energy class A.",
+   "- High standard construction.",
+   "- Delivery under construction."
+  ]
+ },
+ "units": [
+  {
+   "floor_el": "ΙΣΟΓΕΙΟ 1",
+   "floor_en": "GROUNDFLOOR 1",
+   "sqm_el": 146,
+   "sqm_en": 146,
+   "desc_el": "Αποτελείται από 3 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, 2 μπάνια & υπόγειο Play Room. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.",
+   "desc_en": "It consists of 3 bedrooms, kitchen, living room, sitting room, dining room, 2 bathrooms & a basement Play Room. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "ΙΣΟΓΕΙΟ 2",
+   "floor_en": "GROUNDFLOOR 2",
+   "sqm_el": 128,
+   "sqm_en": 127,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, μπάνιo, wc & υπόγειο Play Room. Διαθέτει θέση πάρκινγκ και αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.",
+   "desc_en": "It consists of 2 bedrooms, kitchen, living room, sitting room, dining room, a bathroom, wc & a basement Play Room. It has a parking space and a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.",
+   "status_raw": "440.000€"
+  },
+  {
+   "floor_el": "ΙΣΟΓΕΙΟ 3",
+   "floor_en": "GROUNDFLOOR 3",
+   "sqm_el": 109,
+   "sqm_en": 109,
+   "desc_el": "Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.",
+   "desc_en": "It consists of 3 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "ΙΣΟΓΕΙΟ 4",
+   "floor_en": "GROUNDFLOOR 4",
+   "sqm_el": 89,
+   "sqm_en": 89,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, μπάνιο & wc. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.",
+   "desc_en": "It consists of 2 bedrooms, kitchen, living room, sitting room, dining room, bathroom & a wc. There is the possibility of exclusive use of the garden as well as the possibility of a swimming pool. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.",
+   "status_raw": "Διαθέσιμο"
+  },
+  {
+   "floor_el": "ΙΣΟΓΕΙΟ 5",
+   "floor_en": "GROUNDFLOOR 5",
+   "sqm_el": 146,
+   "sqm_en": 146,
+   "desc_el": "Αποτελείται από 3 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, 2 μπάνια & υπόγειο Play Room. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.",
+   "desc_en": "It consists of 3 bedrooms, kitchen, living room, sitting room, dining room, 2 bathrooms & a basement Play Room. There is the possibility of exclusive use of the garden as well as the possibility of a swimming pool. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "ΙΣΟΓΕΙΟ 6",
+   "floor_en": "GROUNDFLOOR 6",
+   "sqm_el": 128,
+   "sqm_en": 128,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, μπάνια, wc & υπόγειο Play Room. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.",
+   "desc_en": "It consists of 2 bedrooms, kitchen, living room, sitting room, dining room, bathroom, wc & a basement Play Room. There is the possibility of exclusive use of the garden as well as the possibility of a swimming pool. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.",
+   "status_raw": "Διαθέσιμο"
+  },
+  {
+   "floor_el": "ΙΣΟΓΕΙΟ 7",
+   "floor_en": "GROUNDFLOOR 7",
+   "sqm_el": 149,
+   "sqm_en": 149,
+   "desc_el": "Αποτελείται από 3 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, μπάνιo, wc & υπόγειο Play Room. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.",
+   "desc_en": "It consists of 3 bedrooms, kitchen, living room, sitting room, dining room, bathroom, wc & a basement Play Room.It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "ΙΣΟΓΕΙΟ 8",
+   "floor_en": "GROUNDFLOOR 8",
+   "sqm_el": 129,
+   "sqm_en": 129,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, μπάνιο, wc & υπόγειο Play Room. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.",
+   "desc_en": "It consists of 2 bedrooms, kitchen, living room, sitting room, dining room, bathroom, wc & a basement Play Room.It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "1ος ΟΡΟΦΟΣ",
+   "floor_en": "1st FLOOR",
+   "sqm_el": 104,
+   "sqm_en": 104,
+   "desc_el": "Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.",
+   "desc_en": "It consists of 3 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "1ος ΟΡΟΦΟΣ",
+   "floor_en": "1st FLOOR",
+   "sqm_el": 91,
+   "sqm_en": 91,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.",
+   "desc_en": "It consists of 2 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.",
+   "status_raw": "Διαθέσιμο"
+  },
+  {
+   "floor_el": "1ος - 2ος ΟΡΟΦΟΣ",
+   "floor_en": "1st - 2nd FLOOR",
+   "sqm_el": 163,
+   "sqm_en": 163,
+   "desc_el": "Αποτελείται από 5 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και 3 μπάνια. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.",
+   "desc_en": "It consists of 5 bedrooms, a living room, a kitchen-dining room and threee bathrooms. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.",
+   "status_raw": "675.000€"
+  },
+  {
+   "floor_el": "1ος - 2ος ΟΡΟΦΟΣ",
+   "floor_en": "1st - 2nd FLOOR",
+   "sqm_el": 135,
+   "sqm_en": 135,
+   "desc_el": "Αποτελείται από 4 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, γραφείο, 2 μπάνια & 1 w.c. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.",
+   "desc_en": "It consists of 4 bedrooms, kitchen, living room, sitting room, office, 2 bathrooms & 1 w.c. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.",
+   "status_raw": "555.000€"
+  },
+  {
+   "floor_el": "2ος ΟΡΟΦΟΣ",
+   "floor_en": "2nd FLOOR",
+   "sqm_el": 102,
+   "sqm_en": 102,
+   "desc_el": "Αποτελείται από 3 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, 1 μπάνιο & 1 w.c. . Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.",
+   "desc_en": "It consists of 3 bedrooms, kitchen, living room, sitting room, dining room, 1 bathroom & 1 w.c. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.",
+   "status_raw": "Μη διαθέσιμο"
+  },
+  {
+   "floor_el": "2ος ΟΡΟΦΟΣ",
+   "floor_en": "2nd FLOOR",
+   "sqm_el": 92,
+   "sqm_en": 92,
+   "desc_el": "Αποτελείται από 2 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, 1 μπάνιο & 1 w.c. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.",
+   "desc_en": "It consists of 2 bedrooms, kitchen, living room, sitting room, dining room, 1 bathroom & 1 w.c. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.",
+   "status_raw": "Μη διαθέσιμο"
+  }
+ ],
+ "images": [
+  {
+   "alt": "2ΕΥΓΕΙΟΣ_LOGO_CURRENT_edited.png",
+   "full": "https://static.wixstatic.com/media/3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png"
+  },
+  {
+   "alt": "1.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_bc3e690a93ed4492834e5bc367924866~mv2.jpg"
+  },
+  {
+   "alt": "2.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_0ab1189da6464a1aab7396fde262b885~mv2.jpg"
+  },
+  {
+   "alt": "ΟΛΥΜΠΟΥ23-ΙΣ1.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_ecc5314111c54bf2b9a19bf883512fce~mv2.jpg"
+  },
+  {
+   "alt": "y1_.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_722e18f760a24b6f9151ef803a1c3ef5~mv2.jpg"
+  },
+  {
+   "alt": "ΙΣ2.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_a8aef25cb8d242bf9ec359f887a7eeb9~mv2.jpg"
+  },
+  {
+   "alt": "ΥΠ2.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_d30250c1e04340ad9113770f2c8e34db~mv2.jpg"
+  },
+  {
+   "alt": "ΟΛΥΜΠΟΥ23-ΙΣ3.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_0e17960098a54cb2a929eb739050b474~mv2.jpg"
+  },
+  {
+   "alt": "ΙΣ4.png",
+   "full": "https://static.wixstatic.com/media/3c238e_4d5683dd717d47bc8f1020203dd380a7~mv2.png"
+  },
+  {
+   "alt": "ΟΛΥΜΠΟΥ23-ΙΣ5.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_f8030c515b0447c5a704fae76a8e8984~mv2.jpg"
+  },
+  {
+   "alt": "y5_.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_931af6d9d1024afba26ce0c0f5208c6d~mv2.jpg"
+  },
+  {
+   "alt": "ΙΣ6.png",
+   "full": "https://static.wixstatic.com/media/3c238e_e4c1a98685e44f7090a0d09cc3e497c1~mv2.png"
+  },
+  {
+   "alt": "ΟΛΥΜΠΟΥ23-ΥΠ6.png",
+   "full": "https://static.wixstatic.com/media/3c238e_f5c4bbc13eff4a67b7b811afec298aa2~mv2.png"
+  },
+  {
+   "alt": "ΟΛΥΜΠΟΥ-ΙΣ7.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_2b6dbb1d31554af7900db755954a6bfb~mv2.jpg"
+  },
+  {
+   "alt": "y7_.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_d5243498f57e41a187d9b797e3f5979a~mv2.jpg"
+  },
+  {
+   "alt": "ΟΛΥΜΠΟΥ-ΙΣ8.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_2c9dfc0effbd469eb9235f7360de5961~mv2.jpg"
+  },
+  {
+   "alt": "y8_.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_4ce6af0bb6c642e9836c6f98626020d9~mv2.jpg"
+  },
+  {
+   "alt": "ΟΛΥΜΠΟΥ23-Α1.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_20397688543a4295af65176218c14049~mv2.jpg"
+  },
+  {
+   "alt": "Α2.png",
+   "full": "https://static.wixstatic.com/media/3c238e_68c7b019e234413d84adfbdce0153955~mv2.png"
+  },
+  {
+   "alt": "ΟΛΥΜΠΟΥ23-Α3.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_942a79f20c7a429e937bef0fcb14fed8~mv2.jpg"
+  },
+  {
+   "alt": "ΟΛΥΜΠΟΥ-Β3.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_86b029b097cb4933ade98c6b1c6c68ee~mv2.jpg"
+  },
+  {
+   "alt": "Α6.png",
+   "full": "https://static.wixstatic.com/media/3c238e_92eacdc4ff4545f4b937168f7f663be6~mv2.png"
+  },
+  {
+   "alt": "B6.png",
+   "full": "https://static.wixstatic.com/media/3c238e_f74e30f9fccb44088edaca0acb357fe3~mv2.png"
+  },
+  {
+   "alt": "Α7.png",
+   "full": "https://static.wixstatic.com/media/3c238e_b1951a7470694117ac0bec7195a2501f~mv2.png"
+  },
+  {
+   "alt": "B7.png",
+   "full": "https://static.wixstatic.com/media/3c238e_6a2780a9128d451a9dc3f05a700542a2~mv2.png"
+  },
+  {
+   "alt": "Α8.png",
+   "full": "https://static.wixstatic.com/media/3c238e_5bf7dfc62fa347f784d46da9a44b49f4~mv2.png"
+  },
+  {
+   "alt": "B8.png",
+   "full": "https://static.wixstatic.com/media/3c238e_a28cccc8308f48d19dabd9c10284c739~mv2.png"
+  },
+  {
+   "alt": "ΟΛΥΜΠΟΥ-Β1.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_7d0ef1ba24674add9cca57652468daad~mv2.jpg"
+  },
+  {
+   "alt": "ΟΛΥΜΠΟΥ-Β2.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_93408402564c4390b38e59d3e25f9fd7~mv2.jpg"
+  },
+  {
+   "alt": "3.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_6a5bf900089244b4abdd128cb38cca1d~mv2.jpg"
+  },
+  {
+   "alt": "4.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_72da2691c944424e9aeaa28a67456f06~mv2.jpg"
+  },
+  {
+   "alt": "5.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_dd08a10be96f48cebdb3ded624880e05~mv2.jpg"
+  },
+  {
+   "alt": "6.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_ef30090bcfa040ac87b988c91cbb9c06~mv2.jpg"
+  }
+ ],
+ "links": [
+  "https://www.goodland.gr/"
+ ],
+ "notes": [
+  "ΤΟ ΜΕΓΑΛΥΤΕΡΟ ΕΡΓΟ: 14 μονάδες",
+  "ΝΕΑ ΚΑΤΑΣΤΑΣΗ: 3 μονάδες λένε 'Διαθέσιμο / available' ΧΩΡΙΣ τιμή (ΙΣΟΓΕΙΟ 4 89 τ.μ., ΙΣΟΓΕΙΟ 6 128 τ.μ., 1ος 91 τ.μ.). Άρα status και price είναι ΧΩΡΙΣΤΑ πεδία - δεν βγαίνει το ένα από το άλλο.",
+  "3 με τιμή: 440.000€ (ΙΣΟΓΕΙΟ 2), 675.000€ (μεζονέτα 163), 555.000€ (μεζονέτα 135)",
+  "ΑΣΥΜΦΩΝΙΑ Τ.Μ. στο ΙΣΟΓΕΙΟ 2: ελληνικά 128 Τ.Μ., αγγλικά 127 m2",
+  "ΙΣΟΓΕΙΟ 6: ελληνικά 'μπάνια' (πληθυντικός), αγγλικά 'bathroom' (ενικός)",
+  "Κήπος/πισίνα αναφέρονται ΜΟΝΟ στα αγγλικά (ΙΣΟΓΕΙΟ 4, 5, 6) - λείπουν εντελώς από τα ελληνικά",
+  "Λάθος πηγής: 'threee bathrooms' (μεζονέτα 163)",
+  "Τέσσερις γραφές του status στην ίδια σελίδα: '(Not available)', '(not available)', '(Νot available)' με ελληνικό Ν, 'available' χωρίς παρένθεση",
+  "Χωρίς meta description",
+  "Δεν έχει την κοινή hero εικόνα 11062b_1d0bcc... που έχουν οι άλλες σελίδες ακινήτων"
+ ]
+}

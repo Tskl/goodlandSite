@@ -1,0 +1,39 @@
+{
+ "path": "/katalogos",
+ "title": "Κατάλογος Έργων | Ευγειος Goodland ΕΠΕ",
+ "meta": null,
+ "h1": ["ΥΠΗΡΕΣΙΕΣ  (SERVICES)"],
+ "h2": ["ΟΛΟΚΛΗΡΩΜΕΝΑ ΕΡΓΑ", "(completed projects)", "ΔΙΑΘΕΣΙΜΑ ΑΚΙΝΗΤΑ", "(available apartments)", "ΔΙΑΜΟΡΦΩΣΕΙΣ ΕΣΩΤΕΡΙΚΩΝ ΧΩΡΩΝ", "ΞΥΛΙΝΕΣ ΚΑΤΑΣΚΕΥΕΣ", "(interior design,", "wooden constructions)"],
+ "lines": [
+  "ΥΠΗΡΕΣΙΕΣ (SERVICES)",
+  "● ΚΑΤΑΣΚΕΥΕΣ ΝΕΩΝ ΕΡΓΩΝ", "(CONSTRUCTION OF NEW BUILDINGS)",
+  "● ΛΥΣΕΙΣ ΓΙΑ ΕΝΕΡΓΕΙΑΚΗ ΑΝΑΒΑΘΜΙΣΗ", "(SOLUTIONS FOR ENERGY UPGRADE)",
+  "● ΑΝΑΚΑΙΝΙΣΕΙΣ", "(RENOVATIONS)",
+  "● ΕΠΙΣΚΕΥΕΣ", "(REPAIRS)",
+  "ΟΛΟΚΛΗΡΩΜΕΝΑ ΕΡΓΑ", "(completed projects)",
+  "ΔΙΑΘΕΣΙΜΑ ΑΚΙΝΗΤΑ", "(available apartments)",
+  "ΔΙΑΜΟΡΦΩΣΕΙΣ ΕΣΩΤΕΡΙΚΩΝ ΧΩΡΩΝ", "ΞΥΛΙΝΕΣ ΚΑΤΑΣΚΕΥΕΣ", "(interior design,", "wooden constructions)",
+  "2130996050 / 2130354695",
+  "©2022 by ΕΥΓΕΙΟΣ GOODLAND Μ. ΕΠΕ."
+ ],
+ "images": [
+  {"alt": "2ΕΥΓΕΙΟΣ_LOGO_CURRENT_edited.png", "full": "https://static.wixstatic.com/media/3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png"},
+  {"alt": "Σ.jpg", "full": "https://static.wixstatic.com/media/3c238e_cf8e403a548c4d83b3193d039fb990ad~mv2.jpg"},
+  {"alt": "ΗΗ.jpg", "full": "https://static.wixstatic.com/media/3c238e_637df7fb28604824b46fd1fe4cba6b06~mv2.jpg"},
+  {"alt": "ΣΑΛΟΝΙ2.jpg", "full": "https://static.wixstatic.com/media/3c238e_7fe7ecfff2844d3392329d39c4fe6443~mv2.jpg"}
+ ],
+ "links": [
+  "https://www.goodland.gr/",
+  "https://www.goodland.gr/pros-polisi",
+  "https://www.goodland.gr/olokliromena-erga",
+  "https://www.goodland.gr/projects"
+ ],
+ "notes": [
+  "E25 επιβεβαιωμένο: τίτλος browser 'Κατάλογος Έργων', H1 'ΥΠΗΡΕΣΙΕΣ'",
+  "Ο μοναδικός κόμβος πλοήγησης: μόνο από εδώ φτάνεις σε pros-polisi / olokliromena-erga / projects",
+  "Υπηρεσίες ΕΔΩ (4): ΚΑΤΑΣΚΕΥΕΣ ΝΕΩΝ ΕΡΓΩΝ, ΛΥΣΕΙΣ ΓΙΑ ΕΝΕΡΓΕΙΑΚΗ ΑΝΑΒΑΘΜΙΣΗ, ΑΝΑΚΑΙΝΙΣΕΙΣ, ΕΠΙΣΚΕΥΕΣ",
+  "Υπηρεσίες στην ΑΡΧΙΚΗ (4): ΜΕΛΕΤΗ & ΚΑΤΑΣΚΕΥΗ ΚΤΗΡΙΩΝ, ΔΙΑΜΟΡΦΩΣΗ ΕΣΩΤΕΡΙΚΩΝ ΧΩΡΩΝ, ΑΝΑΚΑΙΝΙΣΕΙΣ, ΞΥΛΟΥΡΓΙΚΕΣ ΚΑΤΑΣΚΕΥΕΣ",
+  "Κοινή μόνο η ΑΝΑΚΑΙΝΙΣΕΙΣ -> 7 διαφορετικά ονόματα συνολικά, ακριβώς όπως λέει το E25",
+  "Χωρίς meta description"
+ ]
+}

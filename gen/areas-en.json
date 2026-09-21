@@ -1,0 +1,64 @@
+{
+  "_comment": "Αγγλικές αποδόσεις των ελληνικών κειμένων των ολοκληρωμένων έργων. Μετάφραση, όχι νέο περιεχόμενο. Κλειδί: slug -> λίστα κτηρίων με τη σειρά των raw δεδομένων.",
+  "agia-paraskevi": [
+    {
+      "address": "27 TERPSITHEAS ST, AGIA PARASKEVI",
+      "specs": "FIVE-STOREY APARTMENT BUILDING ON PILOTIS WITH BASEMENT.",
+      "description": "A contemporary building on a very quiet spot in Agia Paraskevi. The design makes the best possible use of the plot and its orientation. It has five floors and seven apartments in total."
+    }
+  ],
+  "keratsini": [
+    {
+      "address": "13 DELFON ST & ITHAKIS ST, KERATSINI",
+      "specs": "FIVE-STOREY APARTMENT BUILDING ON PILOTIS WITH BASEMENT & ROOF TERRACE"
+    }
+  ],
+  "nikea": [
+    {
+      "address": "15 ADRAMYTIOU ST, NIKAIA",
+      "specs": "FIVE-STOREY APARTMENT BUILDING ON PILOTIS WITH BASEMENT & ROOF TERRACE"
+    }
+  ],
+  "palaio-faliro": [
+    {
+      "address": "81 AIANTOS ST, PALAIO FALIRO",
+      "specs": "NEW SEVEN-STOREY APARTMENT BUILDING WITH PILOTIS, BASEMENT AND ROOF TERRACE",
+      "description": "A contemporary building in an easily reached part of Palaio Faliro. It has seven floors and six apartments, storage rooms in the basement, and parking spaces at ground level and below."
+    }
+  ],
+  "papagou": [
+    {
+      "address": "36 CHEIMARRAS ST, PAPAGOU",
+      "specs": "FOUR-STOREY APARTMENT BUILDING ON PILOTIS WITH BASEMENT, GARAGE, ATTIC, PITCHED ROOF & ROOF TERRACE",
+      "description": "A contemporary building on a very quiet spot in Papagou. The design makes the best possible use of the plot and its orientation. It has four floors and five apartments in total. On the top level there is a maisonette, whose features are shown in the drawing below."
+    },
+    {
+      "address": "1 ETHNIKIS AMYNIS AVE, PAPAGOU",
+      "specs": "FIVE-STOREY APARTMENT BUILDING ON PILOTIS WITH BASEMENT & ROOF TERRACE"
+    }
+  ],
+  "peukh": [
+    {
+      "address": "67 KONSTANTINOUPOLEOS ST, PEFKI",
+      "specs": "FOUR-STOREY APARTMENT BUILDING ON PILOTIS WITH BASEMENT & MEZZANINE.",
+      "description": "A contemporary building on a very quiet spot in Pefki. One apartment per floor, storage rooms in the basement and parking spaces at ground level."
+    }
+  ],
+  "xolargos": [
+    {
+      "address": "20 PYTHAGORA ST, CHOLARGOS",
+      "specs": "FOUR-STOREY APARTMENT BUILDING ON PILOTIS WITH BASEMENT & ROOF TERRACE",
+      "description": "A residential building in Cholargos. With an excellent orientation on its side, it was built with white linear horizontal elements and wooden louvred screens. The building reaches the top energy rating through energy-efficient frames, solar collectors, 10 cm external wall insulation, and heat pumps for cooling and heating."
+    },
+    {
+      "address": "55 ANASTASEOS ST, CHOLARGOS",
+      "specs": "FOUR-STOREY APARTMENT BUILDING ON PILOTIS WITH BASEMENT & ROOF TERRACE"
+    }
+  ],
+  "zografou": [
+    {
+      "address": "11 LOCHAGOU GIANNOPOULOU ST, ZOGRAFOU",
+      "specs": "SIX-STOREY APARTMENT BUILDING ON PILOTIS WITH BASEMENT, GARAGE, MEZZANINE & ROOF TERRACE"
+    }
+  ]
+}

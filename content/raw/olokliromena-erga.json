@@ -1,0 +1,77 @@
+{
+ "path": "/olokliromena-erga",
+ "title": "Ολοκληρωμένα Έργα | Ευγειος Goodland ΕΠΕ",
+ "meta": null,
+ "h1": [],
+ "lines": [
+  "ΟΛΟΚΛΗΡΩΜΕΝΕΣ ΚΑΤΑΣΚΕΥΕΣ",
+  "(Completed Projects)",
+  "ΧΟΛΑΡΓΟΣ",
+  "ΠΑΠΑΓΟΥ",
+  "ΖΩΓΡΑΦΟΥ",
+  "ΝΙΚΑIA",
+  "ΚΕΡΑΤΣΙΝΙ",
+  "ΑΓΙΑ ΠΑΡΑΣΚΕΥΗ",
+  "ΠΕΥΚΗ",
+  "ΠΑΛΑΙΟ ΦΑΛΗΡΟ",
+  "2130996050 / 2130354695",
+  "©2022 by ΕΥΓΕΙΟΣ GOODLAND Μ. ΕΠΕ."
+ ],
+ "images": [
+  {
+   "alt": "2ΕΥΓΕΙΟΣ_LOGO_CURRENT_edited.png",
+   "full": "https://static.wixstatic.com/media/3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png"
+  }
+ ],
+ "areas": [
+  {
+   "name": "ΧΟΛΑΡΓΟΣ",
+   "slug": "xolargos"
+  },
+  {
+   "name": "ΠΑΠΑΓΟΥ",
+   "slug": "papagou"
+  },
+  {
+   "name": "ΖΩΓΡΑΦΟΥ",
+   "slug": "zografou"
+  },
+  {
+   "name": "ΝΙΚΑΙΑ",
+   "slug": "nikea"
+  },
+  {
+   "name": "ΚΕΡΑΤΣΙΝΙ",
+   "slug": "keratsini"
+  },
+  {
+   "name": "ΑΓΙΑ ΠΑΡΑΣΚΕΥΗ",
+   "slug": "agia-paraskevi"
+  },
+  {
+   "name": "ΠΕΥΚΗ",
+   "slug": "peukh"
+  },
+  {
+   "name": "ΠΑΛΑΙΟ ΦΑΛΗΡΟ",
+   "slug": "palaio-faliro"
+  }
+ ],
+ "links": [
+  "https://www.goodland.gr/xolargos",
+  "https://www.goodland.gr/papagou",
+  "https://www.goodland.gr/zografou",
+  "https://www.goodland.gr/nikea",
+  "https://www.goodland.gr/keratsini",
+  "https://www.goodland.gr/agia-paraskevi",
+  "https://www.goodland.gr/peukh",
+  "https://www.goodland.gr/palaio-faliro"
+ ],
+ "notes": [
+  "Και οι 8 περιοχές συνδεδεμένες σωστά",
+  "ΚΑΝΕΝΑΣ H1 σε όλη τη σελίδα",
+  "ΛΑΘΟΣ ΧΑΡΑΚΤΗΡΑ: 'ΝΙΚΑIA' - το τρίτο γράμμα από το τέλος είναι λατινικό I μέσα σε ελληνική λέξη. Σπάει την αναζήτηση.",
+  "Καμία εικόνα εκτός από το λογότυπο - 8 κουτιά μόνο με κείμενο",
+  "Χωρίς meta description"
+ ]
+}

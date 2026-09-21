@@ -1,0 +1,31 @@
+{
+ "path": "/keratsini",
+ "title": "Ολοκληρωμένα Έργα Κερατσίνι | Ευγειος Goodland ΕΠΕ",
+ "meta": null,
+ "h1": [],
+ "buildings": [
+  {
+   "address": "ΔΕΛΦΩΝ 13 & ΙΘΑΚΗΣ, ΚΕΡΑΤΣΙΝΙ",
+   "specs_el": "ΠΕΝΤΑΩΡΟΦΗ ΠΟΛΥΚΑΤΟΙΚΙΑ ΕΠΙ PILOTIS ΜΕ ΥΠΟΓΕΙΟ & ΔΩΜΑ",
+   "description_el": null
+  }
+ ],
+ "images": [
+  {
+   "alt": "2ΕΥΓΕΙΟΣ_LOGO_CURRENT_edited.png",
+   "full": "https://static.wixstatic.com/media/3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png"
+  },
+  {
+   "alt": "50.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_9f81f7baf775462ea631f18f92b14139~mv2.jpg"
+  }
+ ],
+ "links": [
+  "https://www.goodland.gr/"
+ ],
+ "notes": [
+  "Η ΠΙΟ ΑΔΕΙΑ ΣΕΛΙΔΑ ΤΟΥ SITE: 1 κτήριο, 1 εικόνα, καμία περιγραφή",
+  "ΚΑΝΕΝΑΣ H1",
+  "Χωρίς meta description"
+ ]
+}

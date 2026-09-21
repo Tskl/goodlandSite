@@ -1,0 +1,76 @@
+{
+ "path": "/papagou",
+ "title": "Ολοκληρωμένα Έργα Παπάγου | Ευγειος Goodland ΕΠΕ",
+ "meta": null,
+ "h1": [],
+ "buildings": [
+  {
+   "address": "ΧΕΙΜΑΡΡΑΣ 36, ΠΑΠΑΓΟΥ",
+   "description_el": "Σύγχρονο κτήριο σε πολύ ήσυχο σημείο στην περιοχή του Παπάγου. Ο σχεδιασμός του κτηρίου βασίζεται στην βέλτιστη αξιοποίηση του οικοπέδου και του προσανατολισμού. Αποτελείται από τέσσερις ορόφους και συνολικά πέντε διαμερίσματα. Στο τελευταίο επίπεδο βρίσκεται μια μεζονέτα, τα χαρακτηριστικά της οποίας παρουσιάζονται στο παρακάτω σχέδιο.",
+   "specs_el": "ΤΕΤΡΑΩΡΟΦΗ ΠΟΛΥΚΑΤΟΙΚΙΑ ΕΠΙ PILOTIS ΜΕ ΥΠΟΓΕΙΟ, ΓΚΑΡΑΖ, ΣΟΦΙΤΑ, ΣΤΕΓΗ & ΔΩΜΑ"
+  },
+  {
+   "address": "ΕΘΝΙΚΗΣ ΑΜΥΝΗΣ 1, ΠΑΠΑΓΟΥ",
+   "description_el": null,
+   "specs_el": "ΠΕΝΤΑΩΡΟΦΗ ΠΟΛΥΚΑΤΟΙΚΙΑ ΕΠΙ PILOTIS ΜΕ ΥΠΟΓΕΙΟ & ΔΩΜΑ"
+  }
+ ],
+ "images": [
+  {
+   "alt": "2ΕΥΓΕΙΟΣ_LOGO_CURRENT_edited.png",
+   "full": "https://static.wixstatic.com/media/3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png"
+  },
+  {
+   "alt": null,
+   "full": "https://static.wixstatic.com/media/3c238e_b82cff7520054f2b9f38b078fe271ceb~mv2.jpg"
+  },
+  {
+   "alt": "XEIMAΡΡΑΣ_ΠΑΠΑΓΟΥ_ΕΞΩΤΕΡΙΚΟ.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_a3b8a5d04b564f7a97c3b883d8498e84~mv2.jpg"
+  },
+  {
+   "alt": "1.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_2841a0f47ac847a6b22c59337e119be0~mv2.jpg"
+  },
+  {
+   "alt": "4_edited_edited.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_d0b79809448149abb2cb8b88bf83e6d3~mv2.jpg"
+  },
+  {
+   "alt": "2_edited.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_fe4f9e806d4e4479a69734438c36c049~mv2.jpg"
+  },
+  {
+   "alt": "ΧΕΙΜΑΡΡΑΣ Δ ΟΡΟΦΟΣ.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_fe4ff027ac7741869516a64686c6daa0~mv2.jpg"
+  },
+  {
+   "alt": "ΧΕΙΜΑΡΡΑΣ ΣΟΦΙΤΑ.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_95d51887e23d4f4a97a574b0df2b8fe0~mv2.jpg"
+  },
+  {
+   "alt": "ΦΩΤΟΓΡΑΦΙΑ ΑΜΥΝΑΣ.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_b0e3b14652a5402fa4bdd23419f069c9~mv2.jpg"
+  },
+  {
+   "alt": "1.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_2f2bedc64ed1414ea26e4a987694043f~mv2.jpg"
+  },
+  {
+   "alt": "2.jpg",
+   "full": "https://static.wixstatic.com/media/3c238e_248437624169452b80f409d5b120a431~mv2.jpg"
+  }
+ ],
+ "links": [
+  "https://www.goodland.gr/"
+ ],
+ "notes": [
+  "2 κτήρια",
+  "Το 'ΕΘΝΙΚΗΣ ΑΜΥΝΗΣ 1' δεν έχει περιγραφή, μόνο προδιαγραφές",
+  "Καμία αγγλική έκδοση σε αυτή τη σελίδα - μόνο ελληνικά",
+  "ΚΑΝΕΝΑΣ H1",
+  "Υπάρχει μια γραμμή με σκέτη τελεία '.'",
+  "Χωρίς meta description",
+  "ΔΙΠΛΗ ΕΙΚΟΝΑ: το alt 'XEIMAΡΡΑΣ_ΠΑΠΑΓΟΥ_ΕΞΩΤΕΡΙΚΟ' εμφανίζεται και στην αρχική με άλλο media id"
+ ]
+}
