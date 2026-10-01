@@ -1,14 +1,3 @@
 Σημεία που χρειάζονται επιβεβαίωση από τον Άγγελο
 ==================================================
 
-- olimpoy-21-marousi / μονάδα 3 (81 τ.μ.): υπνοδωμάτια el=2 en=1
-- bizantiou-56-papagou / μονάδα 3 (110 τ.μ.): υπνοδωμάτια el=3 en=2
-- olympou-23-vrilhssia / μονάδα 2: τ.μ. el=128 en=127
-- verginas-130-agios-dimitrios / μονάδα 1 (69 τ.μ.): άγνωστη διαθεσιμότητα
-- verginas-130-agios-dimitrios / μονάδα 2 (81 τ.μ.): άγνωστη διαθεσιμότητα
-- verginas-130-agios-dimitrios / μονάδα 3 (90 τ.μ.): άγνωστη διαθεσιμότητα
-- verginas-130-agios-dimitrios / μονάδα 4 (98 τ.μ.): άγνωστη διαθεσιμότητα
-- verginas-130-agios-dimitrios / μονάδα 5 (114 τ.μ.): άγνωστη διαθεσιμότητα
-- verginas-130-agios-dimitrios / μονάδα 6 (77 τ.μ.): άγνωστη διαθεσιμότητα
-- markopoulioti-26-32-neos-kosmos / μονάδα 3 (61 τ.μ.): υπνοδωμάτια el=1 en=21
-- markopoulioti-26-32-neos-kosmos / μονάδα 9 (63 τ.μ.): υπνοδωμάτια el=2 en=1

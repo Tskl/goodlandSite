@@ -1,156 +1,156 @@
 {
- "path": "/bizantiou-56-papagou",
- "title": "Νεόδμητη Κατοικία στην Παπάγου | Ευγειος Goodland ΕΠΕ",
- "meta": null,
- "h1": [
-  "BYZANTIOY 56, ΠΑΠΑΓΟΥ"
- ],
- "building": {
-  "el": [
-   "- Τετραώροφη πολυκατοικία με σοφίτα & υπόγειο.",
-   "- Ενεργειακή κλάση Α.",
-   "- Κατασκευή υψηλών προδιαγραφών.",
-   "- Παράδοση υπό κατασκευή."
+  "path": "/bizantiou-56-papagou",
+  "title": "Νεόδμητη Κατοικία στην Παπάγου | Ευγειος Goodland ΕΠΕ",
+  "meta": null,
+  "h1": [
+    "BYZANTIOY 56, ΠΑΠΑΓΟΥ"
   ],
-  "en": [
-   "- Four-storey apartment building with loft & basement.",
-   "- Energy class A.",
-   "- High standard construction.",
-   "- Delivery under construction."
+  "building": {
+    "el": [
+      "- Τετραώροφη πολυκατοικία με σοφίτα & υπόγειο.",
+      "- Ενεργειακή κλάση Α.",
+      "- Κατασκευή υψηλών προδιαγραφών.",
+      "- Παράδοση υπό κατασκευή."
+    ],
+    "en": [
+      "- Four-storey apartment building with loft & basement.",
+      "- Energy class A.",
+      "- High standard construction.",
+      "- Delivery under construction."
+    ]
+  },
+  "units": [
+    {
+      "floor_el": "1ος ΟΡΟΦΟΣ",
+      "floor_en": "1st FLOOR",
+      "sqm": 47,
+      "desc_el": "Αποτελείται από 1 υπνοδωμάτιo, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil",
+      "desc_en": "It consists of 1 bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil",
+      "status_raw": "Μη διαθέσιμο (not available)"
+    },
+    {
+      "floor_el": "2ος ΟΡΟΦΟΣ",
+      "floor_en": "2nd FLOOR",
+      "sqm": 47,
+      "desc_el": "Αποτελείται από 1 υπνοδωμάτιο, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil",
+      "desc_en": "It consists of 1 bedrooms, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil",
+      "status_raw": "Μη διαθέσιμο (Νot available)"
+    },
+    {
+      "floor_el": "3ος-4ος ΟΡΟΦΟΣ",
+      "floor_en": "3rd-4th FLOOR",
+      "sqm": 110,
+      "type": "ΜΕΖΟΝΕΤΑ / MAISONETTE",
+      "desc_el": "Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και δύο μπάνια. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil",
+      "desc_en": "It consists of 3 bedrooms, a living room, a kitchen-dining room and two bathrooms. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil",
+      "status_raw": "μη διαθέσιμο (not available)"
+    }
+  ],
+  "extra_sections": [
+    "Εσωτερικά 2ου ορόφου:",
+    "Εσωτερικά 3ου ορόφου:"
+  ],
+  "images": [
+    {
+      "alt": null,
+      "full": "https://static.wixstatic.com/media/11062b_1d0bcc469def47d2aa6a11ac417208db~mv2_d_2256_1269_s_2.jpg"
+    },
+    {
+      "alt": "2ΕΥΓΕΙΟΣ_LOGO_CURRENT_edited.png",
+      "full": "https://static.wixstatic.com/media/3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png"
+    },
+    {
+      "alt": "1.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_bb1bcc03fc1e438a87c210078a8cbff6~mv2.jpg"
+    },
+    {
+      "alt": "Α2.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_47cf31c770534ebca4dc37d896e86e6d~mv2.jpg"
+    },
+    {
+      "alt": "Β2.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_aa33d401f0d74fd1a58b0156535ede5d~mv2.jpg"
+    },
+    {
+      "alt": "Γ2.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_d780d18b3c694a6281a6f42f8819cd6d~mv2.jpg"
+    },
+    {
+      "alt": "Δ2.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_65c0e2ac561f4c8fb42b5f40f4d31978~mv2.jpg"
+    },
+    {
+      "alt": "2.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_65b361ee142e49ee8f60ffb09e5c9c14~mv2.jpg"
+    },
+    {
+      "alt": "3.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_e9e22346ad2646ec9ec02446c6b54eb6~mv2.jpg"
+    },
+    {
+      "alt": "4.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_47dadf00bdd84e08a502b04b740d4a3f~mv2.jpg"
+    },
+    {
+      "alt": "5.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_b28f6f308440439193a6bff04f35aa38~mv2.jpg"
+    },
+    {
+      "alt": "6.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_2cf817b8e5504e95ab08ff7b81e2e427~mv2.jpg"
+    },
+    {
+      "alt": "7.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_4e10120563ec4f1ca6ee9425bd799a13~mv2.jpg"
+    },
+    {
+      "alt": "08.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_1bd1dee2d10847cb98d964569f3a4041~mv2.jpg"
+    },
+    {
+      "alt": "09.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_883b232cb37241dca361813d4efc517a~mv2.jpg"
+    },
+    {
+      "alt": "10.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_4fccf43d9f0d4e14abf98a63a08700ba~mv2.jpg"
+    },
+    {
+      "alt": "Β#2.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_c9c829108779482d891c83e0dc7ef406~mv2.jpg"
+    },
+    {
+      "alt": "Β#1.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_e901ed8845774db0855b2d4c77162e89~mv2.jpg"
+    },
+    {
+      "alt": "1C2B.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_865551e70a274797a357b544f53389d5~mv2.jpg"
+    },
+    {
+      "alt": "5C2B.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_c70bf864536e46fd932cdea26d844fa5~mv2.jpg"
+    },
+    {
+      "alt": "2C2B.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_f0acc2631ecd46878eb8c5d66c422cfa~mv2.jpg"
+    },
+    {
+      "alt": "4C2B.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_18bb5cee1c3a4ad3841f8fd09fe3c74d~mv2.jpg"
+    },
+    {
+      "alt": "3C2B.jpg",
+      "full": "https://static.wixstatic.com/media/3c238e_4eecd5def6bf4ea5939ec40723b235af~mv2.jpg"
+    }
+  ],
+  "links": [
+    "https://www.goodland.gr/"
+  ],
+  "notes": [
+    "3 μονάδες, καμία διαθέσιμη, καμία τιμή",
+    "ΑΣΥΜΦΩΝΙΑ el/en στη ΜΕΖΟΝΕΤΑ 110: ελληνικά '3 υπνοδωμάτια', αγγλικά '2 bedrooms'. Ποιο ισχύει;",
+    "Τρεις διαφορετικές γραφές του ίδιου status: 'Μη διαθέσιμο (not available)', '(Νot available)' με ελληνικό Ν, 'μη διαθέσιμο' με πεζά",
+    "Χωρίς meta description"
   ]
- },
- "units": [
-  {
-   "floor_el": "1ος ΟΡΟΦΟΣ",
-   "floor_en": "1st FLOOR",
-   "sqm": 47,
-   "desc_el": "Αποτελείται από 1 υπνοδωμάτιo, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil",
-   "desc_en": "It consists of 1 bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil",
-   "status_raw": "Μη διαθέσιμο (not available)"
-  },
-  {
-   "floor_el": "2ος ΟΡΟΦΟΣ",
-   "floor_en": "2nd FLOOR",
-   "sqm": 47,
-   "desc_el": "Αποτελείται από 1 υπνοδωμάτιο, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil",
-   "desc_en": "It consists of 1 bedrooms, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil",
-   "status_raw": "Μη διαθέσιμο (Νot available)"
-  },
-  {
-   "floor_el": "3ος-4ος ΟΡΟΦΟΣ",
-   "floor_en": "3rd-4th FLOOR",
-   "sqm": 110,
-   "type": "ΜΕΖΟΝΕΤΑ / MAISONETTE",
-   "desc_el": "Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και δύο μπάνια. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil",
-   "desc_en": "It consists of 2 bedrooms, a living room, a kitchen-dining room and two bathrooms. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil",
-   "status_raw": "μη διαθέσιμο (not available)"
-  }
- ],
- "extra_sections": [
-  "Εσωτερικά 2ου ορόφου:",
-  "Εσωτερικά 3ου ορόφου:"
- ],
- "images": [
-  {
-   "alt": null,
-   "full": "https://static.wixstatic.com/media/11062b_1d0bcc469def47d2aa6a11ac417208db~mv2_d_2256_1269_s_2.jpg"
-  },
-  {
-   "alt": "2ΕΥΓΕΙΟΣ_LOGO_CURRENT_edited.png",
-   "full": "https://static.wixstatic.com/media/3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png"
-  },
-  {
-   "alt": "1.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_bb1bcc03fc1e438a87c210078a8cbff6~mv2.jpg"
-  },
-  {
-   "alt": "Α2.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_47cf31c770534ebca4dc37d896e86e6d~mv2.jpg"
-  },
-  {
-   "alt": "Β2.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_aa33d401f0d74fd1a58b0156535ede5d~mv2.jpg"
-  },
-  {
-   "alt": "Γ2.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_d780d18b3c694a6281a6f42f8819cd6d~mv2.jpg"
-  },
-  {
-   "alt": "Δ2.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_65c0e2ac561f4c8fb42b5f40f4d31978~mv2.jpg"
-  },
-  {
-   "alt": "2.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_65b361ee142e49ee8f60ffb09e5c9c14~mv2.jpg"
-  },
-  {
-   "alt": "3.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_e9e22346ad2646ec9ec02446c6b54eb6~mv2.jpg"
-  },
-  {
-   "alt": "4.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_47dadf00bdd84e08a502b04b740d4a3f~mv2.jpg"
-  },
-  {
-   "alt": "5.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_b28f6f308440439193a6bff04f35aa38~mv2.jpg"
-  },
-  {
-   "alt": "6.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_2cf817b8e5504e95ab08ff7b81e2e427~mv2.jpg"
-  },
-  {
-   "alt": "7.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_4e10120563ec4f1ca6ee9425bd799a13~mv2.jpg"
-  },
-  {
-   "alt": "08.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_1bd1dee2d10847cb98d964569f3a4041~mv2.jpg"
-  },
-  {
-   "alt": "09.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_883b232cb37241dca361813d4efc517a~mv2.jpg"
-  },
-  {
-   "alt": "10.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_4fccf43d9f0d4e14abf98a63a08700ba~mv2.jpg"
-  },
-  {
-   "alt": "Β#2.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_c9c829108779482d891c83e0dc7ef406~mv2.jpg"
-  },
-  {
-   "alt": "Β#1.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_e901ed8845774db0855b2d4c77162e89~mv2.jpg"
-  },
-  {
-   "alt": "1C2B.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_865551e70a274797a357b544f53389d5~mv2.jpg"
-  },
-  {
-   "alt": "5C2B.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_c70bf864536e46fd932cdea26d844fa5~mv2.jpg"
-  },
-  {
-   "alt": "2C2B.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_f0acc2631ecd46878eb8c5d66c422cfa~mv2.jpg"
-  },
-  {
-   "alt": "4C2B.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_18bb5cee1c3a4ad3841f8fd09fe3c74d~mv2.jpg"
-  },
-  {
-   "alt": "3C2B.jpg",
-   "full": "https://static.wixstatic.com/media/3c238e_4eecd5def6bf4ea5939ec40723b235af~mv2.jpg"
-  }
- ],
- "links": [
-  "https://www.goodland.gr/"
- ],
- "notes": [
-  "3 μονάδες, καμία διαθέσιμη, καμία τιμή",
-  "ΑΣΥΜΦΩΝΙΑ el/en στη ΜΕΖΟΝΕΤΑ 110: ελληνικά '3 υπνοδωμάτια', αγγλικά '2 bedrooms'. Ποιο ισχύει;",
-  "Τρεις διαφορετικές γραφές του ίδιου status: 'Μη διαθέσιμο (not available)', '(Νot available)' με ελληνικό Ν, 'μη διαθέσιμο' με πεζά",
-  "Χωρίς meta description"
- ]
 }

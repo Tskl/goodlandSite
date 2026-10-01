@@ -346,8 +346,7 @@ export const properties: Property[] = [
       bedrooms: 2,
       status: 'available',
       price: '365.000€',
-      description: { el: 'Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιο και wc. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, σύστημα ψύξης–θέρμανσης με fan coil, που λειτουργούν μέσω αντλίας θερμότητα, ενδοδαπέδια θέρμανση & παροχή για φορτιστή ηλεκτρικού οχήματος.', en: 'It consists of 1 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space in the groundfloor, storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, cooling-heating system with fan coil, which operate via a heat pump, underfloor heating & supply for an electric vehicle charger.' },
-      needsReview: ['υπνοδωμάτια: ελληνικά 2, αγγλικά 1'],
+      description: { el: 'Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιο και wc. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, σύστημα ψύξης–θέρμανσης με fan coil, που λειτουργούν μέσω αντλίας θερμότητα, ενδοδαπέδια θέρμανση & παροχή για φορτιστή ηλεκτρικού οχήματος.', en: 'It consists of 2 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space in the groundfloor, storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, cooling-heating system with fan coil, which operate via a heat pump, underfloor heating & supply for an electric vehicle charger.' },
       floors: [1],
       plan: ['Α3'],
     },
@@ -365,14 +364,15 @@ export const properties: Property[] = [
     },
     {
       id: 'olimpoy-21-m-05',
-      floor: { el: '1ος όροφος', en: '1st floor' },
+      floor: { el: '2ος όροφος', en: '2nd floor' },
       type: { el: 'Διαμέρισμα', en: 'Apartment' },
       sqm: 107,
       bedrooms: 3,
       status: 'available',
       price: '500.000€',
       description: { el: 'Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και 2 μπάνια. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, σύστημα ψύξης–θέρμανσης με fan coil, που λειτουργούν μέσω αντλίας θερμότητα, ενδοδαπέδια θέρμανση & παροχή για φορτιστή ηλεκτρικού οχήματος.', en: 'It consists of 3 bedrooms, a living room, a kitchen-dining room and 2 bathrooms. It has a parking space in the groundfloor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, cooling-heating system with fan coil, which operate via a heat pump, underfloor heating & supply for an electric vehicle charger.' },
-      floors: [1],
+      floors: [2],
+      plan: ['Β1'],
     },
     {
       id: 'olimpoy-21-m-06',
@@ -400,14 +400,15 @@ export const properties: Property[] = [
     },
     {
       id: 'olimpoy-21-m-08',
-      floor: { el: '2ος όροφος', en: '2nd floor' },
+      floor: { el: '5ος όροφος', en: '5th floor' },
       type: { el: 'Διαμέρισμα', en: 'Apartment' },
       sqm: 123,
       bedrooms: 3,
       status: 'available',
       price: '660.000€',
       description: { el: 'Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, 2 μπάνια και wc. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, σύστημα ψύξης–θέρμανσης με fan coil, που λειτουργούν μέσω αντλίας θερμότητα, ενδοδαπέδια θέρμανση & παροχή για φορτιστή ηλεκτρικού οχήματος.', en: 'It consists of 3 bedrooms, a living room, a kitchen-dining room, 2 bathrooms and a wc. It has a parking space in the grounfloor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, cooling-heating system with fan coil, which operate via a heat pump, underfloor heating & supply for an electric vehicle charger.' },
-      floors: [2],
+      floors: [5],
+      plan: ['Ε1'],
     },
     {
       id: 'olimpoy-21-m-09',
@@ -419,7 +420,7 @@ export const properties: Property[] = [
       price: '660.000€',
       description: { el: 'Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, 2 μπάνια και wc. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, σύστημα ψύξης–θέρμανσης με fan coil, που λειτουργούν μέσω αντλίας θερμότητα, ενδοδαπέδια θέρμανση & παροχή για φορτιστή ηλεκτρικού οχήματος.', en: 'It consists of 3 bedrooms, a living room, a kitchen-dining room, 2 bathrooms and a wc. It has a parking space in the groundfloor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, cooling-heating system with fan coil, which operate via a heat pump, underfloor heating & supply for an electric vehicle charger.' },
       floors: [5],
-      plan: ['Ε1', 'Ε2'],
+      plan: ['Ε2'],
     },
     ],
     images: [
@@ -490,8 +491,7 @@ export const properties: Property[] = [
       sqm: 110,
       bedrooms: 3,
       status: 'sold',
-      description: { el: 'Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και δύο μπάνια. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 2 bedrooms, a living room, a kitchen-dining room and two bathrooms. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
-      needsReview: ['υπνοδωμάτια: ελληνικά 3, αγγλικά 2'],
+      description: { el: 'Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και δύο μπάνια. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 3 bedrooms, a living room, a kitchen-dining room and two bathrooms. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [3, 4],
       plan: ['Γ2', 'Δ2'],
     },
@@ -770,6 +770,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 3 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, 2 μπάνια & υπόγειο Play Room. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.', en: 'It consists of 3 bedrooms, kitchen, living room, sitting room, dining room, 2 bathrooms & a basement Play Room. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.' },
       floors: [0],
+      plan: ['ΙΣ1'],
     },
     {
       id: 'olympou-23-v-02',
@@ -780,8 +781,8 @@ export const properties: Property[] = [
       status: 'available',
       price: '440.000€',
       description: { el: 'Αποτελείται από 2 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, μπάνιo, wc & υπόγειο Play Room. Διαθέτει θέση πάρκινγκ και αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.', en: 'It consists of 2 bedrooms, kitchen, living room, sitting room, dining room, a bathroom, wc & a basement Play Room. It has a parking space and a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.' },
-      needsReview: ['τ.μ.: ελληνικά 128, αγγλικά 127'],
       floors: [0],
+      plan: ['ΙΣ2'],
     },
     {
       id: 'olympou-23-v-03',
@@ -792,6 +793,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.', en: 'It consists of 3 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.' },
       floors: [0],
+      plan: ['ΙΣ3'],
     },
     {
       id: 'olympou-23-v-04',
@@ -802,6 +804,7 @@ export const properties: Property[] = [
       status: 'available',
       description: { el: 'Αποτελείται από 2 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, μπάνιο & wc. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.', en: 'It consists of 2 bedrooms, kitchen, living room, sitting room, dining room, bathroom & a wc. There is the possibility of exclusive use of the garden as well as the possibility of a swimming pool. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.' },
       floors: [0],
+      plan: ['ΙΣ4'],
     },
     {
       id: 'olympou-23-v-05',
@@ -812,6 +815,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 3 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, 2 μπάνια & υπόγειο Play Room. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.', en: 'It consists of 3 bedrooms, kitchen, living room, sitting room, dining room, 2 bathrooms & a basement Play Room. There is the possibility of exclusive use of the garden as well as the possibility of a swimming pool. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.' },
       floors: [0],
+      plan: ['ΙΣ5'],
     },
     {
       id: 'olympou-23-v-06',
@@ -822,6 +826,7 @@ export const properties: Property[] = [
       status: 'available',
       description: { el: 'Αποτελείται από 2 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, μπάνια, wc & υπόγειο Play Room. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.', en: 'It consists of 2 bedrooms, kitchen, living room, sitting room, dining room, bathroom, wc & a basement Play Room. There is the possibility of exclusive use of the garden as well as the possibility of a swimming pool. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.' },
       floors: [0],
+      plan: ['ΙΣ6'],
     },
     {
       id: 'olympou-23-v-07',
@@ -832,6 +837,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 3 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, μπάνιo, wc & υπόγειο Play Room. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.', en: 'It consists of 3 bedrooms, kitchen, living room, sitting room, dining room, bathroom, wc & a basement Play Room.It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.' },
       floors: [0],
+      plan: ['ΙΣ7'],
     },
     {
       id: 'olympou-23-v-08',
@@ -842,6 +848,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 2 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, μπάνιο, wc & υπόγειο Play Room. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.', en: 'It consists of 2 bedrooms, kitchen, living room, sitting room, dining room, bathroom, wc & a basement Play Room.It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.' },
       floors: [0],
+      plan: ['ΙΣ8'],
     },
     {
       id: 'olympou-23-v-09',
@@ -852,6 +859,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.', en: 'It consists of 3 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.' },
       floors: [1],
+      plan: ['Α1'],
     },
     {
       id: 'olympou-23-v-10',
@@ -862,6 +870,7 @@ export const properties: Property[] = [
       status: 'available',
       description: { el: 'Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.', en: 'It consists of 2 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.' },
       floors: [1],
+      plan: ['Α2'],
     },
     {
       id: 'olympou-23-v-11',
@@ -873,6 +882,7 @@ export const properties: Property[] = [
       price: '675.000€',
       description: { el: 'Αποτελείται από 5 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και 3 μπάνια. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.', en: 'It consists of 5 bedrooms, a living room, a kitchen-dining room and threee bathrooms. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.' },
       floors: [1, 2],
+      plan: ['Α3', 'Β3'],
     },
     {
       id: 'olympou-23-v-12',
@@ -884,6 +894,7 @@ export const properties: Property[] = [
       price: '555.000€',
       description: { el: 'Αποτελείται από 4 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, γραφείο, 2 μπάνια & 1 w.c. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.', en: 'It consists of 4 bedrooms, kitchen, living room, sitting room, office, 2 bathrooms & 1 w.c. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.' },
       floors: [1, 2],
+      plan: ['Α8', 'Β8'],
     },
     {
       id: 'olympou-23-v-13',
@@ -894,6 +905,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 3 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, 1 μπάνιο & 1 w.c. . Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.', en: 'It consists of 3 bedrooms, kitchen, living room, sitting room, dining room, 1 bathroom & 1 w.c. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.' },
       floors: [2],
+      plan: ['Β1'],
     },
     {
       id: 'olympou-23-v-14',
@@ -904,6 +916,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 2 υπνοδωμάτια, κουζίνα, σαλόνι, καθιστικό, τραπεζαρία, 1 μπάνιο & 1 w.c. Διαθέτει θέση πάρκινγκ & αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil units.', en: 'It consists of 2 bedrooms, kitchen, living room, sitting room, dining room, 1 bathroom & 1 w.c. It has a parking space & a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is provided. Heating is provided through an underfloor system with a heat pump and cooling with a fan coil units.' },
       floors: [2],
+      plan: ['Β2'],
     },
     ],
     images: [
@@ -1070,9 +1083,8 @@ export const properties: Property[] = [
       type: { el: 'Διαμέρισμα', en: 'Apartment' },
       sqm: 69,
       bedrooms: 2,
-      status: 'unknown',
+      status: 'sold',
       description: { el: 'Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.', en: 'It consists of 2 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.' },
-      needsReview: ['άγνωστη διαθεσιμότητα'],
       floors: [1],
       plan: ['Α2'],
     },
@@ -1082,9 +1094,8 @@ export const properties: Property[] = [
       type: { el: 'Διαμέρισμα', en: 'Apartment' },
       sqm: 81,
       bedrooms: 2,
-      status: 'unknown',
+      status: 'sold',
       description: { el: 'Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.', en: 'It consists of 2 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.' },
-      needsReview: ['άγνωστη διαθεσιμότητα'],
       floors: [4],
       plan: ['Δ1'],
     },
@@ -1094,9 +1105,8 @@ export const properties: Property[] = [
       type: { el: 'Διαμέρισμα', en: 'Apartment' },
       sqm: 90,
       bedrooms: 3,
-      status: 'unknown',
+      status: 'sold',
       description: { el: 'Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.', en: 'It consists of 3 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.' },
-      needsReview: ['άγνωστη διαθεσιμότητα'],
       floors: [4],
       plan: ['Δ2'],
     },
@@ -1106,9 +1116,8 @@ export const properties: Property[] = [
       type: { el: 'Διαμέρισμα με σοφίτα', en: 'Apartment with loft' },
       sqm: 98,
       bedrooms: 3,
-      status: 'unknown',
+      status: 'sold',
       description: { el: 'Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ στο υπόγειο, αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.', en: 'It consists of 3 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space in the underground parking area, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators' },
-      needsReview: ['άγνωστη διαθεσιμότητα'],
       floors: [5, 6],
       plan: ['Ε1', 'ΣΤ1'],
     },
@@ -1118,9 +1127,9 @@ export const properties: Property[] = [
       type: { el: 'Διαμέρισμα με σοφίτα', en: 'Apartment with loft' },
       sqm: 114,
       bedrooms: 3,
-      status: 'unknown',
+      status: 'available',
+      price: '440.000€',
       description: { el: 'Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει δύο θέσεις πάρκινγκ (μία στο υπόγειο και μία στο ισόγειο-pilotis), αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.', en: 'It consists of 3 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has two parking spaces (one in the underground parking area and one in the ground-floor covered parking - pilotis), a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.' },
-      needsReview: ['άγνωστη διαθεσιμότητα'],
       floors: [5, 6],
       plan: ['Ε2', 'ΣΤ2'],
     },
@@ -1130,9 +1139,9 @@ export const properties: Property[] = [
       type: { el: 'Διαμέρισμα με σοφίτα', en: 'Apartment with loft' },
       sqm: 77,
       bedrooms: 2,
-      status: 'unknown',
+      status: 'available',
+      price: '295.000€',
       description: { el: 'Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ στο υπόγειο, αποθήκη στο υπόγειο, ξύλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Υπάρχει αναμονή για ηλιακό θερμοσίφωνα & για a/c για ψύξη. H θέρμανση πραγματοποιείται μέσω λέβητα φυσικού αερίου και θερμαντικών σωμάτων.', en: 'It consists of 2 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space in the underground parking area, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. There is a standby for a solar water heater & for a/c for cooling. Heating is provided by a natural gas boiler and radiators.' },
-      needsReview: ['άγνωστη διαθεσιμότητα'],
       floors: [5, 6],
       plan: ['Ε3Β', 'ΣΤ3'],
     },
@@ -1164,10 +1173,6 @@ export const properties: Property[] = [
       { code: 'ΣΤ3', floor: 6, src: '/images/verginas-130-agios-dimitrios/10.png' },
     ],
     seo: { title: { el: 'Βεργίνας 130, Άγιος Δημήτριος' } },
-    needsReview: [
-      'ΠΡΟΣΟΧΗ - Η ΠΙΟ ΜΠΕΡΔΕΜΕΝΗ ΣΕΛΙΔΑ. Το DOM δίνει τις δύο τιμές (440.000€, 295.000€) στο ΤΕΛΟΣ της σελίδας, αποσυνδεδεμένες από μονάδες. Δεν τις αντιστοίχισα - θα τις πεις εσύ.',
-      'ΟΡΦΑΝΟ: υπάρχει \'APARTMENT 65 M2\' μόνο στα αγγλικά, χωρίς ελληνικό κείμενο, χωρίς όροφο, με διαφορετικές προδιαγραφές (ενδοδαπέδια θέρμανση, χωρίς πάρκινγκ/αποθήκη). Υπάρχει στ\' αλήθεια;',
-    ],
   },
   {
     slug: 'kekropos-4-6-kallithea',
@@ -1534,6 +1539,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 1 υπνοδωμάτιο, καθιστικό, κουζίνα, τραπεζαρία, και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 1 bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [0],
+      plan: ['Ι1'],
     },
     {
       id: 'markopouliot-02',
@@ -1544,6 +1550,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 1 υπνοδωμάτιο, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 1 bedrooms, a living room, a kitchen-dining room, and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [0],
+      plan: ['Ι2'],
     },
     {
       id: 'markopouliot-03',
@@ -1552,9 +1559,9 @@ export const properties: Property[] = [
       sqm: 61,
       bedrooms: 1,
       status: 'sold',
-      description: { el: 'Αποτελείται από 1 υπνοδωμάτιο, καθιστικό, κουζίνα, τραπεζαρία και μπάνιο. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 21bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
-      needsReview: ['υπνοδωμάτια: ελληνικά 1, αγγλικά 21'],
+      description: { el: 'Αποτελείται από 1 υπνοδωμάτιο, καθιστικό, κουζίνα, τραπεζαρία και μπάνιο. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 1 bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [0],
+      plan: ['Ι3'],
     },
     {
       id: 'markopouliot-04',
@@ -1565,6 +1572,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 1 υπνοδωμάτιο, καθιστικό, κουζίνα, τραπεζαρία, και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 1 bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [1],
+      plan: ['Α1'],
     },
     {
       id: 'markopouliot-05',
@@ -1575,6 +1583,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, μπάνιo και wc. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 2 bedrooms, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [1],
+      plan: ['Α2'],
     },
     {
       id: 'markopouliot-06',
@@ -1585,6 +1594,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 1 υπνοδωμάτιο, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 1 bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [1],
+      plan: ['Α3'],
     },
     {
       id: 'markopouliot-07',
@@ -1595,6 +1605,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 1 υπνοδωμάτιο, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 1 bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [1],
+      plan: ['Α5'],
     },
     {
       id: 'markopouliot-08',
@@ -1605,6 +1616,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 1 υπνοδωμάτιο, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 1 bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [2],
+      plan: ['Β1'],
     },
     {
       id: 'markopouliot-09',
@@ -1613,9 +1625,9 @@ export const properties: Property[] = [
       sqm: 63,
       bedrooms: 2,
       status: 'sold',
-      description: { el: 'Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 1 bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
-      needsReview: ['υπνοδωμάτια: ελληνικά 2, αγγλικά 1'],
+      description: { el: 'Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 2 bedrooms, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [2],
+      plan: ['Β5'],
     },
     {
       id: 'markopouliot-10',
@@ -1626,6 +1638,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 1 υπνοδωμάτιo, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 1 bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [3],
+      plan: ['Γ1'],
     },
     {
       id: 'markopouliot-11',
@@ -1636,6 +1649,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 2 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία μπάνιo και wc. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 2 bedroomσ, a living room, a kitchen-dining room, a bathroom and a wc. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [3],
+      plan: ['Γ4'],
     },
     {
       id: 'markopouliot-12',
@@ -1646,6 +1660,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 1 υπνοδωμάτιo, καθιστικό, κουζίνα, τραπεζαρία και μπάνιo. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 1 bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [3],
+      plan: ['Γ6'],
     },
     {
       id: 'markopouliot-13',
@@ -1656,6 +1671,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία 2 μπάνια και wc. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 3 bedrooms, a living room, a kitchen-dining room 2 bathrooms and a wc. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [4],
+      plan: ['Δ1'],
     },
     {
       id: 'markopouliot-14',
@@ -1666,6 +1682,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία και μπάνιο. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 3 bedrooms, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [4],
+      plan: ['Δ2'],
     },
     {
       id: 'markopouliot-15',
@@ -1676,6 +1693,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 1 υπνοδωμάτιo, καθιστικό, κουζίνα, τραπεζαρία και μπάνιο. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 1 bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [4],
+      plan: ['Δ3'],
     },
     {
       id: 'markopouliot-16',
@@ -1686,6 +1704,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 1 υπνοδωμάτιo, καθιστικό, κουζίνα, τραπεζαρία και μπάνιο. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 1 bedroom, a living room, a kitchen-dining room and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [4],
+      plan: ['Δ4'],
     },
     {
       id: 'markopouliot-17',
@@ -1696,6 +1715,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, 2 μπάνια και wc. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 3 bedrooms, a living room, a kitchen-dining room, two bathrooms and a wc. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [5],
+      plan: ['Ε1'],
     },
     {
       id: 'markopouliot-18',
@@ -1706,6 +1726,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 3 υπνοδωμάτια, καθιστικό, κουζίνα, τραπεζαρία, 2 μπάνια και wc. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 3 bedrooms, a living room, a kitchen-dining room, two bathrooms and a wc. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [5],
+      plan: ['Ε2'],
     },
     {
       id: 'markopouliot-19',
@@ -1716,6 +1737,7 @@ export const properties: Property[] = [
       status: 'sold',
       description: { el: 'Αποτελείται από 1 υπνοδωμάτιo, καθιστικό, κουζίνα, τραπεζαρία και μπάνιο. Διαθέτει θέση πάρκινγκ στο ισόγειο, αποθήκη στο υπόγειο, ξυλινα πατώματα, θερμομονωτικά κουφώματα, σίτες, ενεργειακούς υαλοπίνακες, κέλυφος εξωτερικής θερμομόνωσης, παροχή για φορτιστή ηλεκτρικού οχήματος. Προβλέπεται τοποθέτηση και σύνδεση ηλιακού θερμοσίφωνα. Η θέρμανση πραγματοποιείται μέσω ενδοδαπέδιου συστήματος με αντλία θερμότητας και η ψύξη με fan coil', en: 'It consists of 1 bedroom, a living room, a kitchen-dining room, two bathrooms and a bathroom. It has a parking space on the ground floor, a storage room in the basement, wooden floors, thermally insulated frames, screens, energy-efficient glazing, external thermal insulation shell, power supply for an electric vehicle charger. Installation and connection of a solar water heater is planned. Heating is carried out through an underfloor system with a heat pump and cooling with a fan coil' },
       floors: [5],
+      plan: ['Ε3'],
     },
     ],
     images: [

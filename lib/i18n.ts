@@ -56,6 +56,8 @@ const D = {
   privacy:     { el: 'Πολιτική απορρήτου',  en: 'Privacy policy' },
   pages:       { el: 'Σελίδες',             en: 'Pages' },
   menu:        { el: 'Μενού',               en: 'Menu' },
+  menuOpen:    { el: 'Άνοιγμα μενού',        en: 'Open menu' },
+  menuClose:   { el: 'Κλείσιμο μενού',      en: 'Close menu' },
 
   /* διακόπτες */
   theme:       { el: 'Θέμα',                en: 'Theme' },
