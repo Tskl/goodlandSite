@@ -134,9 +134,16 @@ section + section { border-top: 1px solid var(--line-soft); }
 /* ── Header ─────────────────────────────────────────────────────── */
 .header {
   position: sticky; top: 0; z-index: 50;
+  border-bottom: 1px solid var(--line-soft);
+}
+/* Το θόλωμα μπαίνει σε ψευδο-στοιχείο και όχι στην ίδια την .header:
+   backdrop-filter στην .header θα την έκανε containing block για ό,τι είναι
+   position:fixed μέσα της, και το συρτάρι του κινητού (.mnav) θα κοβόταν
+   στα 58px της κεφαλίδας. */
+.header::before {
+  content: ''; position: absolute; inset: 0; z-index: -1;
   background: color-mix(in srgb, var(--bg) 88%, transparent);
   backdrop-filter: saturate(140%) blur(14px);
-  border-bottom: 1px solid var(--line-soft);
 }
 .header__inner {
   height: var(--header-row);
@@ -203,6 +210,7 @@ section + section { border-top: 1px solid var(--line-soft); }
     width: 34px; height: 30px; margin-left: 6px; padding: 0;
     background: transparent; border: 1px solid var(--line); color: var(--ink);
     cursor: pointer; transition: border-color 0.25s var(--ease);
+    position: relative; z-index: 80; /* πάνω από το .mnav, για να κλείνει με το Χ */
   }
   .burger:hover, .burger:focus-visible { border-color: var(--ink-dim); }
 }
@@ -267,6 +275,8 @@ section + section { border-top: 1px solid var(--line-soft); }
   font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.16em; font-weight: 600;
 }
 @media (min-width: 940px) { .callbar { display: none; } }
+/* Με ανοιχτό το μενού κινητού η μπάρα κρύβεται· το τηλέφωνο υπάρχει μέσα στο συρτάρι. */
+body:has(.mnav.is-open) .callbar { display: none; }
 
 /* ── Κουμπιά ────────────────────────────────────────────────────── */
 .btn {
