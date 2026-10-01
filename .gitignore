@@ -4,3 +4,7 @@ out/
 next-env.d.ts
 .env*.local
 .DS_Store
+
+# βοηθητικά αρχεία του Claude
+Claude outputs/
+.audit-tmp.mjs

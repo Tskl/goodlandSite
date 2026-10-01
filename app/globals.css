@@ -684,3 +684,28 @@ button[disabled] { opacity: 0.5; cursor: wait; }
 [data-theme='light'] .cm { background: #EDE6D7; }
 [data-theme='light'] .rail { background: var(--paper); }
 [data-theme='light'] .overview[open] { background: color-mix(in srgb, var(--paper) 60%, transparent); }
+
+/* ── Συγκατάθεση cookies ────────────────────────────────────────── */
+.consent {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 65;
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-2);
+  padding: var(--space-2) var(--gutter);
+  background: var(--bg-raised); border-top: 1px solid var(--line);
+  font-size: var(--step--1);
+}
+.consent__text { margin: 0; max-width: 72ch; color: var(--ink-dim); }
+.consent__text a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+.consent__btns { display: flex; gap: var(--space-1); flex-wrap: wrap; }
+.consent .btn { padding: 10px 18px; }
+@media (max-width: 939px) { body:has(.consent) .callbar { display: none; } }
+
+/* ── Χάρτης ─────────────────────────────────────────────────────── */
+.map { border: 1px solid var(--line); background: var(--bg-raised); }
+.map__frame { display: block; width: 100%; height: clamp(280px, 45vw, 440px); border: 0; }
+.map__off {
+  height: clamp(220px, 30vw, 320px);
+  display: grid; place-content: center; justify-items: center; gap: var(--space-2);
+  padding: var(--space-3); text-align: center;
+}
+.map__link { display: block; padding: 12px 16px; border-top: 1px solid var(--line); color: var(--ink-dim); }
+.map__link:hover { color: var(--hi); }

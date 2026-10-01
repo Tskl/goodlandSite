@@ -3,6 +3,7 @@ import { site } from '@/content/site'
 import type { Lang } from '@/lib/i18n'
 import { href, t, tr } from '@/lib/i18n'
 import Shell from '@/components/Shell'
+import { ConsentReset } from '@/components/CookieConsent'
 
 const EL = {
   who: 'Ποιοι είμαστε', whoP: (n: string, a: string) => `Υπεύθυνος επεξεργασίας είναι η ${n}, ${a}.`,
@@ -18,8 +19,10 @@ const EL = {
   rightsP: 'Έχετε δικαίωμα πρόσβασης, διόρθωσης, διαγραφής, περιορισμού και φορητότητας των δεδομένων σας, καθώς και ανάκλησης της συγκατάθεσής σας ανά πάσα στιγμή. Στείλτε μας email στο',
   rightsP2: 'και απαντάμε εντός ενός μήνα. Μπορείτε επίσης να υποβάλετε καταγγελία στην Αρχή Προστασίας Δεδομένων Προσωπικού Χαρακτήρα',
   cookies: 'Cookies',
-  cookiesP: 'Ο ιστότοπος δεν χρησιμοποιεί cookies παρακολούθησης ούτε εργαλεία αναλυτικών στοιχείων τρίτων. Δεν εμφανίζεται μπάνερ συγκατάθεσης γιατί δεν υπάρχει τίποτα να συγκατατεθείτε.',
-  updated: 'Τελευταία ενημέρωση: Σεπτέμβριος 2026.',
+  cookiesP: 'Το μόνο στοιχείο του ιστότοπου που χρησιμοποιεί cookies είναι ο χάρτης Google στη σελίδα επικοινωνίας, και φορτώνεται μόνο αν δώσετε τη συγκατάθεσή σας. Αν δεν τη δώσετε, ο χάρτης δεν φορτώνεται και η Google δεν λαμβάνει τίποτα.',
+  stats: 'Στατιστικά επισκεψιμότητας',
+  statsP: 'Μετράμε συνολικές επισκέψεις ανά σελίδα με το Vercel Web Analytics. Δεν χρησιμοποιεί cookies, δεν αποθηκεύει τίποτα στη συσκευή σας και δεν σας αναγνωρίζει από επίσκεψη σε επίσκεψη· βλέπουμε μόνο αθροιστικά νούμερα.',
+  updated: 'Τελευταία ενημέρωση: Οκτώβριος 2026.',
   contactLine: 'Επικοινωνία:',
 }
 
@@ -37,8 +40,10 @@ const EN = {
   rightsP: 'You have the right of access, rectification, erasure, restriction and portability, and you may withdraw your consent at any time. Email us at',
   rightsP2: 'and we answer within one month. You may also lodge a complaint with the Hellenic Data Protection Authority',
   cookies: 'Cookies',
-  cookiesP: 'This site uses no tracking cookies and no third-party analytics. There is no consent banner because there is nothing to consent to.',
-  updated: 'Last updated: September 2026.',
+  cookiesP: 'The only part of this site that uses cookies is the Google map on the contact page, and it loads only if you consent. If you do not, the map is not loaded and Google receives nothing.',
+  stats: 'Visitor statistics',
+  statsP: 'We count total visits per page with Vercel Web Analytics. It uses no cookies, stores nothing on your device and does not recognise you from one visit to the next; we only see aggregate numbers.',
+  updated: 'Last updated: October 2026.',
   contactLine: 'Contact:',
 }
 
@@ -80,6 +85,10 @@ export default function Privacy({ lang }: { lang: Lang }) {
 
           <h2>{C.cookies}</h2>
           <p>{C.cookiesP}</p>
+          <p><ConsentReset lang={lang} /></p>
+
+          <h2>{C.stats}</h2>
+          <p>{C.statsP}</p>
 
           <p className="dim">{C.updated}</p>
         </section>

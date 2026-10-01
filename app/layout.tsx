@@ -40,6 +40,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <script dangerouslySetInnerHTML={{ __html: BOOT }} />
         {children}
+        {/* Vercel Web Analytics: ενεργοποιείται από το dashboard του Vercel (Analytics → Enable). Χωρίς cookies. */}
+        <script defer src="/_vercel/insights/script.js" />
       </body>
     </html>
   )

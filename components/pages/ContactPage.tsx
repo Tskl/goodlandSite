@@ -4,6 +4,7 @@ import type { Lang } from '@/lib/i18n'
 import { href, t, tr } from '@/lib/i18n'
 import ContactForm from '@/components/ContactForm'
 import Shell from '@/components/Shell'
+import MapEmbed from '@/components/MapEmbed'
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -48,6 +49,9 @@ export default function ContactPage({ lang }: { lang: Lang }) {
             <div>
               <ContactForm lang={lang} />
             </div>
+          </div>
+          <div style={{ marginTop: 'var(--space-5)' }}>
+            <MapEmbed lang={lang} query="Ύδρας 14, Μοσχάτο" />
           </div>
         </section>
       </div>
