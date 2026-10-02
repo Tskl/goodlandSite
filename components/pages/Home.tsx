@@ -1,7 +1,6 @@
 import Link from 'next/link'
+import { getContent } from '@/lib/content'
 import Image from 'next/image'
-import { properties } from '@/content/properties'
-import { services } from '@/content/services'
 import { site } from '@/content/site'
 import { unitsOf, priceNumber } from '@/lib/features'
 import type { Lang } from '@/lib/i18n'
@@ -9,7 +8,8 @@ import { href, t, tr } from '@/lib/i18n'
 import UnitCard from '@/components/UnitCard'
 import Shell from '@/components/Shell'
 
-export default function Home({ lang }: { lang: Lang }) {
+export default async function Home({ lang }: { lang: Lang }) {
+  const { properties, services } = await getContent()
   const T = tr(lang)
   const L = (p: string) => href(p, lang)
 

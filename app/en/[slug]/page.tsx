@@ -1,13 +1,12 @@
 import type { Metadata } from 'next'
-import { properties } from '@/content/properties'
-import { areas } from '@/content/areas'
-import { interiors } from '@/content/interiors'
+import { getContent } from '@/lib/content'
 import Detail from '@/components/pages/Detail'
 import { slugMeta } from '@/lib/meta'
 
 type Params = { params: Promise<{ slug: string }> }
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const { properties, areas, interiors } = await getContent()
   return [...properties, ...areas, ...interiors].map((x) => ({ slug: x.slug }))
 }
 

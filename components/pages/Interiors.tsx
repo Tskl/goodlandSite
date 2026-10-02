@@ -1,12 +1,13 @@
 import Link from 'next/link'
-import { interiors } from '@/content/interiors'
+import { getContent } from '@/lib/content'
 import { site } from '@/content/site'
 import type { Lang } from '@/lib/i18n'
 import { href, t, tr } from '@/lib/i18n'
 import Shell from '@/components/Shell'
 import MediaCard from '@/components/MediaCard'
 
-export default function Interiors({ lang }: { lang: Lang }) {
+export default async function Interiors({ lang }: { lang: Lang }) {
+  const { interiors } = await getContent()
   const T = tr(lang)
   const L = (p: string) => href(p, lang)
 

@@ -1,9 +1,7 @@
 import Link from 'next/link'
+import { bulletsOf, getContent } from '@/lib/content'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
-import { properties } from '@/content/properties'
-import { areas } from '@/content/areas'
-import { interiors } from '@/content/interiors'
 import { site } from '@/content/site'
 import Gallery from '@/components/Gallery'
 import ContactForm from '@/components/ContactForm'
@@ -11,7 +9,7 @@ import Shell from '@/components/Shell'
 import UnitBlock from '@/components/UnitBlock'
 import { unitsOf, bathroomsOf, pricePerSqm, formatPrice, priceNumber } from '@/lib/features'
 import { photosOf } from '@/lib/plans'
-import { energy, label, name } from '@/lib/greek'
+import { energy, label } from '@/lib/greek'
 import type { Lang } from '@/lib/i18n'
 import { href, isFallback, num, t, tr, STATUS_KEY } from '@/lib/i18n'
 
@@ -21,7 +19,8 @@ function Text({ v, lang }: { v: { el: string; en?: string }; lang: Lang }) {
   return isFallback(v, lang) ? <span lang="el">{s}</span> : <>{s}</>
 }
 
-export default function Detail({ slug, lang }: { slug: string; lang: Lang }) {
+export default async function Detail({ slug, lang }: { slug: string; lang: Lang }) {
+  const { properties, areas, interiors } = await getContent()
   const T = tr(lang)
   const L = (p: string) => href(p, lang)
 
@@ -32,7 +31,7 @@ export default function Detail({ slug, lang }: { slug: string; lang: Lang }) {
     const avail = units.filter((u) => u.status === 'available')
     const nums = avail.map((u) => priceNumber(u.price)).filter(Boolean) as number[]
     const from = nums.length ? `${T('from')} €${num(Math.min(...nums), lang)}` : T('onRequest')
-    const area = name(p.area.el, lang)
+    const area = label(p.area, lang)
     const photos = photosOf(p)
     const address = label(p.address, lang)
 
@@ -43,7 +42,7 @@ export default function Detail({ slug, lang }: { slug: string; lang: Lang }) {
       address: { '@type': 'PostalAddress', streetAddress: p.address.el, addressLocality: p.area.el, addressCountry: 'GR' },
       numberOfAccommodationUnits: units.length,
       numberOfAvailableAccommodationUnits: avail.length,
-      image: photos.slice(0, 5).map((i) => `https://www.goodland.gr${i}`),
+      image: photos.slice(0, 5).map((i) => (i.startsWith('http') ? i : `https://www.goodland.gr${i}`)),
       provider: {
         '@type': 'Organization', name: site.name, telephone: `+30${site.phone}`, email: site.email,
         address: { '@type': 'PostalAddress', streetAddress: 'Ύδρας 14', addressLocality: 'Μοσχάτο', addressCountry: 'GR' },
@@ -84,9 +83,10 @@ export default function Detail({ slug, lang }: { slug: string; lang: Lang }) {
           <div>
             <section style={{ paddingTop: 'var(--space-5)' }}>
               <div className="label">{T('theProject')}</div>
-              <p className="lead" style={{ marginTop: 18, maxWidth: '58ch' }}>
-                <Text v={p.buildingDescription} lang={lang} />
-              </p>
+              <ul className="lead bullets" style={{ marginTop: 18, maxWidth: '58ch' }}
+                  lang={isFallback(p.buildingDescription, lang) ? 'el' : undefined}>
+                {bulletsOf(t(p.buildingDescription, lang)).map((b, k) => <li key={k}>{b}</li>)}
+              </ul>
             </section>
 
             <section>
@@ -181,7 +181,7 @@ export default function Detail({ slug, lang }: { slug: string; lang: Lang }) {
   if (a) {
     const idx = areas.findIndex((x) => x.slug === slug)
     const next = areas[(idx + 1) % areas.length]
-    const areaName = name(a.area.el, lang)
+    const areaName = label(a.area, lang)
     return (
       <Shell lang={lang}>
         <div className="container">
@@ -222,7 +222,7 @@ export default function Detail({ slug, lang }: { slug: string; lang: Lang }) {
             <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}>
               <a className="btn" href={site.phoneHref}>{site.phone}</a>
               <Link className="btn btn--ghost" href={L(`/${next.slug}`)}>
-                {T('nextProject')} · {name(next.area.el, lang)} →
+                {T('nextProject')} · {label(next.area, lang)} →
               </Link>
             </div>
           </section>

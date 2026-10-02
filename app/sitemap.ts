@@ -1,7 +1,5 @@
 import type { MetadataRoute } from 'next'
-import { properties } from '@/content/properties'
-import { areas } from '@/content/areas'
-import { interiors } from '@/content/interiors'
+import { getContent } from '@/lib/content'
 
 const BASE = 'https://www.goodland.gr'
 
@@ -16,7 +14,8 @@ function entry(path: string, priority: number, changeFrequency: 'weekly' | 'mont
   ]
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const { properties, areas, interiors } = await getContent()
   return [
     ...entry('/', 1, 'monthly'),
     ...entry('/pros-polisi', 0.9, 'weekly'),

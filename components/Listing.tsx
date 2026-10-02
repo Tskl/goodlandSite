@@ -21,6 +21,7 @@ export default function Listing({ properties, lang = 'el' }: { properties: Prope
   const [onlyAvailable, setOnlyAvailable] = useState(true)
   const [sort, setSort] = useState<Sort>('price-asc')
 
+  const areaEn = useMemo(() => new Map(properties.map((p) => [p.area.el, p.area.en])), [properties])
   const areas = useMemo(
     () => [...new Set(properties.map((p) => p.area.el))].sort((a, b) => a.localeCompare(b, 'el')),
     [properties],
@@ -61,7 +62,7 @@ export default function Listing({ properties, lang = 'el' }: { properties: Prope
             <span className="label">{T('area')}</span>
             <select value={area ?? ''} onChange={(e) => setArea(e.target.value || null)} aria-label={T('area')}>
               <option value="">{T('allF')}</option>
-              {areas.map((a) => <option key={a} value={a}>{name(a, lang)}</option>)}
+              {areas.map((a) => <option key={a} value={a}>{(lang === 'en' && areaEn.get(a)) || name(a, lang)}</option>)}
             </select>
           </div>
 

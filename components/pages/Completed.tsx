@@ -1,12 +1,13 @@
 import Link from 'next/link'
-import { areas } from '@/content/areas'
-import { label, name } from '@/lib/greek'
+import { getContent } from '@/lib/content'
+import { label } from '@/lib/greek'
 import type { Lang } from '@/lib/i18n'
 import { href, tr } from '@/lib/i18n'
 import Shell from '@/components/Shell'
 import MediaCard from '@/components/MediaCard'
 
-export default function Completed({ lang }: { lang: Lang }) {
+export default async function Completed({ lang }: { lang: Lang }) {
+  const { areas } = await getContent()
   const T = tr(lang)
   const L = (p: string) => href(p, lang)
   const buildings = areas.reduce((n, a) => n + a.buildings.length, 0)
@@ -29,7 +30,7 @@ export default function Completed({ lang }: { lang: Lang }) {
               <MediaCard
                 key={a.slug}
                 href={L(`/${a.slug}`)}
-                title={name(a.area.el, lang)}
+                title={label(a.area, lang)}
                 meta={a.buildings.length === 1 ? T('nBuilding', { n: 1 }) : T('nBuildings', { n: a.buildings.length })}
                 sub={a.buildings.map((b) => label(b.address, lang).split(',')[0]).join(' · ')}
                 images={a.images}

@@ -709,3 +709,8 @@ button[disabled] { opacity: 0.5; cursor: wait; }
 }
 .map__link { display: block; padding: 12px 16px; border-top: 1px solid var(--line); color: var(--ink-dim); }
 .map__link:hover { color: var(--hi); }
+
+/* Κουκκίδες περιγραφής κτηρίου */
+.bullets { list-style: none; padding: 0; margin-bottom: 0; display: grid; gap: 6px; }
+.bullets li { position: relative; padding-left: 1.1em; }
+.bullets li::before { content: ''; position: absolute; left: 0; top: 0.62em; width: 6px; height: 6px; background: var(--hi); }

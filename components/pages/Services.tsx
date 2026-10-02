@@ -1,11 +1,12 @@
 import Link from 'next/link'
-import { services } from '@/content/services'
+import { getContent } from '@/lib/content'
 import { site } from '@/content/site'
 import type { Lang } from '@/lib/i18n'
 import { href, t, tr } from '@/lib/i18n'
 import Shell from '@/components/Shell'
 
-export default function Services({ lang }: { lang: Lang }) {
+export default async function Services({ lang }: { lang: Lang }) {
+  const { services } = await getContent()
   const T = tr(lang)
   const L = (p: string) => href(p, lang)
 

@@ -6,7 +6,7 @@
    ═══════════════════════════════════════════════════════════════════ */
 
 import type { Lang } from './i18n'
-import type { L } from '@/content/types'
+import type { Area, L } from '@/content/types'
 
 const IN_AREA: Record<string, string> = {
   'Περιστέρι': 'στο Περιστέρι',
@@ -111,10 +111,11 @@ export function label(v: L | undefined, lang: Lang): string {
 }
 
 /** «στο Περιστέρι» / «in Peristeri». Άγνωστη περιοχή → «στην περιοχή Χ». */
-export function inArea(area: string | undefined, lang: Lang = 'el'): string {
+export function inArea(area: string | Area | undefined, lang: Lang = 'el'): string {
   if (!area) return ''
-  if (lang === 'en') return `in ${name(area, 'en')}`
-  return IN_AREA[area.trim()] ?? `στην περιοχή ${area}`
+  const a: Area = typeof area === 'string' ? { el: area } : area
+  if (lang === 'en') return `in ${a.en || name(a.el, 'en')}`
+  return a.in || IN_AREA[a.el.trim()] || `στην περιοχή ${a.el}`
 }
 
 /** Ενεργειακή κλάση: Α→A, Β→B, Γ→C … για την αγγλική έκδοση. */

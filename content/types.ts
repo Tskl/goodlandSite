@@ -1,5 +1,8 @@
 export type L = { el: string; en?: string }
 
+/** Περιοχή: όνομα + (από τη βάση) έτοιμο «στη Γλυφάδα». */
+export type Area = L & { in?: string }
+
 export type Status = 'available' | 'reserved' | 'sold' | 'unknown'
 
 export type Unit = {
@@ -25,7 +28,7 @@ export type Plan = { code: string; floor: number; src: string }
 export type Property = {
   slug: string
   address: L
-  area: L
+  area: Area
   kind: 'new-build' | 'resale'
   energyClass?: string
   buildingDescription: L
@@ -38,7 +41,7 @@ export type Property = {
 
 export type ProjectArea = {
   slug: string
-  area: L
+  area: Area
   buildings: { address: L; specs: L; description?: L }[]
   images: string[]
 }

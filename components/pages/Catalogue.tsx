@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { properties } from '@/content/properties'
+import { getContent } from '@/lib/content'
 import { site } from '@/content/site'
 import { priceNumber, unitsOf } from '@/lib/features'
 import type { Lang } from '@/lib/i18n'
@@ -7,7 +7,8 @@ import { href, num, tr } from '@/lib/i18n'
 import Listing from '@/components/Listing'
 import Shell from '@/components/Shell'
 
-export default function Catalogue({ lang }: { lang: Lang }) {
+export default async function Catalogue({ lang }: { lang: Lang }) {
+  const { properties } = await getContent()
   const T = tr(lang)
   const L = (p: string) => href(p, lang)
 

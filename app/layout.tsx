@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   openGraph: { type: 'website', locale: 'el_GR', siteName: 'Εύγειος Goodland Μ. ΕΠΕ' },
 }
 
+/** Δεδομένα από τη βάση: ανανέωση το πολύ κάθε ώρα· το admin ανανεώνει αμέσως. */
+export const revalidate = 3600
+
 export const viewport: Viewport = { colorScheme: 'dark light' }
 
 /* Τρέχει πριν το πρώτο pixel: θέμα και γλώσσα χωρίς αναλαμπή. */

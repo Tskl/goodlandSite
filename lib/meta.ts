@@ -1,9 +1,8 @@
 import type { Metadata } from 'next'
-import { properties } from '@/content/properties'
-import { areas } from '@/content/areas'
-import { interiors } from '@/content/interiors'
+import { getContent } from './content'
 import { unitsOf } from '@/lib/features'
-import { energy, inArea, label, name } from '@/lib/greek'
+import { photosOf } from '@/lib/plans'
+import { energy, inArea, label } from '@/lib/greek'
 import type { Lang } from '@/lib/i18n'
 
 /** canonical + hreflang για κάθε σελίδα. Τα ελληνικά URL μένουν όπως ήταν. */
@@ -64,7 +63,8 @@ export function pageMeta(key: PageKey, path: string, lang: Lang): Metadata {
 
 
 /** Metadata για τη δυναμική σελίδα /[slug]. */
-export function slugMeta(slugRaw: string, lang: Lang): Metadata {
+export async function slugMeta(slugRaw: string, lang: Lang): Promise<Metadata> {
+  const { properties, areas, interiors } = await getContent()
   const s = decodeURIComponent(slugRaw)
   const en = lang === 'en'
 
@@ -72,26 +72,26 @@ export function slugMeta(slugRaw: string, lang: Lang): Metadata {
   if (p) {
     const avail = unitsOf(p).filter((u) => u.status === 'available')
     const address = label(p.address, lang)
-    const area = name(p.area.el, lang)
+    const area = label(p.area, lang)
     const t0 = `${address}, ${area}`
     const description = avail.length
       ? en
         ? `${avail.length} apartments available — ${address}, ${area}. Energy class ${energy(p.energyClass, 'en')}, parking and storage, straight from the developer.`
         : `${avail.length} διαθέσιμα διαμερίσματα — ${address}, ${area}. Ενεργειακή κλάση ${p.energyClass}, πάρκινγκ και αποθήκη, απευθείας από τον κατασκευαστή.`
       : en
-        ? `Our project ${inArea(p.area.el, 'en')} — ${address}. Energy class ${energy(p.energyClass, 'en')}.`
-        : `Το έργο μας ${inArea(p.area.el, 'el')} — ${address}. Ενεργειακή κλάση ${p.energyClass}.`
+        ? `Our project ${inArea(p.area, 'en')} — ${address}. Energy class ${energy(p.energyClass, 'en')}.`
+        : `Το έργο μας ${inArea(p.area, 'el')} — ${address}. Ενεργειακή κλάση ${p.energyClass}.`
     return { title: title2(t0, lang), description, alternates: alternates(`/${p.slug}`, lang),
-             openGraph: { locale: en ? 'en_GB' : 'el_GR', title: t0, description, images: p.images[0] ? [p.images[0]] : undefined } }
+             openGraph: { locale: en ? 'en_GB' : 'el_GR', title: t0, description, images: photosOf(p)[0] ? [photosOf(p)[0]] : undefined } }
   }
 
   const a = areas.find((x) => x.slug === s)
   if (a) {
-    const areaName = name(a.area.el, lang)
+    const areaName = label(a.area, lang)
     const t0 = en ? `${areaName} — completed projects` : `${areaName} — ολοκληρωμένα έργα`
     const description = en
       ? `Apartment buildings we have delivered in ${areaName}.`
-      : `Πολυκατοικίες που έχουμε παραδώσει ${inArea(a.area.el, 'el')}.`
+      : `Πολυκατοικίες που έχουμε παραδώσει ${inArea(a.area, 'el')}.`
     return { title: title2(t0, lang), description, alternates: alternates(`/${a.slug}`, lang),
              openGraph: { locale: en ? 'en_GB' : 'el_GR', title: t0, description } }
   }

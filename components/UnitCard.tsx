@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import type { Unit, Property } from '@/content/types'
 import { formatPrice, pricePerSqm, bathroomsOf, featuresOf } from '@/lib/features'
-import { energy, inArea, label, name } from '@/lib/greek'
+import { energy, inArea, label } from '@/lib/greek'
 import type { Lang } from '@/lib/i18n'
 import { href, t, tr, STATUS_KEY } from '@/lib/i18n'
 import { photosOf } from '@/lib/plans'
@@ -18,7 +18,7 @@ export default function UnitCard({
   const off = u.status !== 'available'
   const to = href(`/${p.slug}#${u.id}`, lang)
 
-  const area = name(p.area.el, lang)
+  const area = label(p.area, lang)
   const address = label(p.address, lang)
   const type = t(u.type, lang)
 
@@ -36,7 +36,7 @@ export default function UnitCard({
 
   return (
     <article className={`jc ${off ? 'jc--off' : ''}`}>
-      <Link href={to} className="jc__link" aria-label={`${type} ${u.sqm ?? ''} ${T('sqmShort')} ${inArea(p.area.el, lang)} — ${address}`}>
+      <Link href={to} className="jc__link" aria-label={`${type} ${u.sqm ?? ''} ${T('sqmShort')} ${inArea(p.area, lang)} — ${address}`}>
         <CardMedia images={photosOf(p).slice(0, 8)} priority={priority} badges={badges} lang={lang}
                    alt={`${type} ${u.sqm ?? ''} ${T('sqmShort')}, ${address}, ${area}`} />
       </Link>
@@ -52,7 +52,7 @@ export default function UnitCard({
         <div className="jc__facts">{facts.join(' · ')}</div>
 
         <Link href={to} className="jc__where">
-          {type} {inArea(p.area.el, lang)} — {address}
+          {type} {inArea(p.area, lang)} — {address}
         </Link>
 
         <div className="jc__foot">

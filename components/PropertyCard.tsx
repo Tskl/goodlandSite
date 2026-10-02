@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import type { Property } from '@/content/types'
 import { unitsOf, priceNumber } from '@/lib/features'
-import { energy, label, name } from '@/lib/greek'
+import { energy, label } from '@/lib/greek'
 import type { Lang } from '@/lib/i18n'
 import { href, num, tr } from '@/lib/i18n'
 import { photosOf } from '@/lib/plans'
@@ -18,7 +18,7 @@ export default function PropertyCard({
   const off = available.length === 0
   const to = href(`/${p.slug}`, lang)
 
-  const area = name(p.area.el, lang)
+  const area = label(p.area, lang)
   const address = label(p.address, lang)
 
   const badges = [
