@@ -195,7 +195,8 @@ section + section { border-top: 1px solid var(--line-soft); }
   transition: border-color 0.25s var(--ease), color 0.25s var(--ease);
 }
 .ctl__theme:hover { border-color: var(--ink-dim); color: var(--ink); }
-.ctl__sun { display: block; transform: translateY(-0.5px); }
+.ctl__icon { display: block; }
+@media (max-width: 939px) { .ctl__theme { width: 34px; height: 30px; } } /* ίδιο μέγεθος με το burger δίπλα */
 
 /* Στο κινητό η κεφαλίδα κρύβει τα πάντα· οι διακόπτες πρέπει να μείνουν. */
 @media (max-width: 939px) {
@@ -852,3 +853,85 @@ button[disabled] { opacity: 0.5; cursor: wait; }
 
 /* Το διαμέρισμα στο οποίο ήρθες από την κάρτα: σύντομος τονισμός */
 .ub.is-target { outline: 2px solid var(--b1); outline-offset: 8px; transition: outline-color 0.6s var(--ease); }
+
+/* ── Μενού επιλογής (components/Select) — στα χρώματα του θέματος ── */
+.sel { position: relative; }
+.sel__btn {
+  display: inline-flex; align-items: center; gap: 10px; min-height: 32px;
+  background: transparent; color: var(--ink); border: 0; border-bottom: 1px solid var(--line);
+  font: inherit; font-size: var(--step--1); padding: 5px 2px 5px 0; cursor: pointer;
+}
+.sel__btn:hover, .sel.is-open .sel__btn { border-bottom-color: var(--hi); }
+.sel__btn:focus-visible { outline: 2px solid var(--b1); outline-offset: 2px; }
+.sel__chev { color: var(--ink-dim); transition: transform 0.2s var(--ease); flex: none; }
+.sel.is-open .sel__chev { transform: rotate(180deg); }
+.sel__list {
+  position: absolute; z-index: 45; top: calc(100% + 6px); left: 0; min-width: 100%; max-height: 320px; overflow-y: auto;
+  margin: 0; padding: 6px 0; list-style: none;
+  background: var(--bg-raised); border: 1px solid var(--line);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+  max-width: min(320px, calc(100vw - 32px));
+  animation: sel-in 0.14s var(--ease);
+}
+.sel__list--right { left: auto; right: 0; }
+.adm select option { background: var(--bg); color: var(--ink); }
+.sel__list:focus { outline: none; }
+.sel__list li {
+  position: relative; padding: 9px 16px 9px 26px; white-space: nowrap; cursor: pointer;
+  font-size: var(--step--1); color: var(--ink-dim);
+}
+.sel__list li.is-active { background: color-mix(in srgb, var(--ink) 7%, transparent); color: var(--ink); }
+.sel__list li.is-on { color: var(--ink); font-weight: 600; }
+.sel__list li.is-on::before { content: ''; position: absolute; left: 11px; top: 50%; width: 6px; height: 6px; margin-top: -3px; background: var(--b3); }
+[data-theme='light'] .sel__list { box-shadow: 0 12px 32px rgba(20, 18, 10, 0.12); }
+@keyframes sel-in { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+
+/* ── Αναζήτηση (components/Search) ─────────────────────────────── */
+.ctl__search { margin-left: 8px; }
+@media (max-width: 939px) { .ctl__search { width: 34px; height: 30px; margin-left: 0; margin-right: 6px; } }
+.srch {
+  position: fixed; inset: 0; z-index: 90; display: flex; justify-content: center; align-items: flex-start;
+  padding: min(12vh, 96px) 16px 16px;
+  background: color-mix(in srgb, #0B0A08 62%, transparent); backdrop-filter: blur(3px);
+  animation: mnav-fade 0.18s var(--ease);
+}
+.srch__panel {
+  width: 100%; max-width: 640px; max-height: calc(100dvh - min(12vh, 96px) - 32px); display: flex; flex-direction: column;
+  background: var(--bg); border: 1px solid var(--line); box-shadow: 0 24px 64px rgba(0, 0, 0, 0.35);
+}
+.srch__bar { display: flex; align-items: center; gap: 12px; padding: 14px 16px; border-bottom: 1px solid var(--line); color: var(--ink-dim); }
+.srch__bar input {
+  flex: 1; min-width: 0; background: transparent; border: 0; color: var(--ink);
+  font: inherit; font-size: 1.05rem; padding: 6px 0;
+}
+.srch__bar input:focus { outline: none; }
+.srch__close { background: transparent; border: 1px solid var(--line); color: var(--ink-dim); font: inherit; font-size: 0.72rem; padding: 4px 8px; cursor: pointer; }
+.srch__body { overflow-y: auto; }
+.srch__msg { padding: 18px 16px; margin: 0; color: var(--ink-dim); }
+.srch__tips { display: flex; flex-wrap: wrap; gap: 6px; padding: 16px; }
+.srch__list { list-style: none; margin: 0; padding: 6px 0; }
+.srch__list li { display: grid; grid-template-columns: 112px 1fr; gap: 12px; align-items: baseline; padding: 11px 16px; cursor: pointer; }
+.srch__list li.is-active { background: color-mix(in srgb, var(--ink) 7%, transparent); }
+.srch__kind { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); padding-top: 2px; }
+.srch__kind.is-unit { color: var(--c1); }
+.srch__kind.is-property { color: var(--c2); }
+.srch__kind.is-area { color: var(--c4); }
+.srch__text { display: grid; gap: 2px; min-width: 0; }
+.srch__text b { font-weight: 600; color: var(--ink); }
+.srch__text span { font-size: var(--step--1); color: var(--ink-dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+@media (max-width: 560px) {
+  .srch { padding: 0; }
+  .srch__panel { max-width: none; max-height: 100dvh; height: 100dvh; border: 0; }
+  .srch__list li { grid-template-columns: 1fr; gap: 2px; }
+}
+
+body:has(.srch) .callbar, body:has(.srch) .consent { display: none; }
+
+/* ── Admin: μηνύματα ─────────────────────────────────────────────── */
+.adm-msgs { display: grid; gap: 10px; }
+.adm-msg { border: 1px solid var(--line); border-left: 4px solid var(--b3); background: var(--bg-raised); padding: 14px 16px; scroll-margin-top: 70px; }
+.adm-msg.is-done { border-left-color: var(--line); opacity: 0.7; }
+.adm-msg header { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; }
+.adm-msg p { margin: 8px 0 0; }
+.adm-msg__text { white-space: pre-wrap; padding: 10px 12px; background: var(--bg); border: 1px solid var(--line-soft); }
+.adm-msg__foot { display: flex; gap: 12px; align-items: center; justify-content: flex-end; margin-top: 10px; }

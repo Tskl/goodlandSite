@@ -152,7 +152,7 @@ export default async function Detail({ slug, lang }: { slug: string; lang: Lang 
                 {T('orSend')}
               </p>
               <div style={{ marginTop: 32 }}>
-                <ContactForm about={`${address}, ${area}`} lang={lang} />
+                <ContactForm about={`${address}, ${area}`} slug={p.slug} lang={lang} />
               </div>
             </section>
           </div>

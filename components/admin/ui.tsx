@@ -25,6 +25,7 @@ export function AdminBar({ admin }: { admin: Admin }) {
         <Link href="/admin" className="adm-bar__home">Εύγειος · Διαχείριση</Link>
         <Link href="/admin">Ακίνητα</Link>
         <Link href="/admin/new">+ Νέο ακίνητο</Link>
+        <Link href="/admin/messages">Μηνύματα</Link>
         <Link href="/admin/users">Χρήστες</Link>
         <Link href="/admin/log">Ιστορικό</Link>
         <a href="/" target="_blank" rel="noopener">Το site ↗</a>

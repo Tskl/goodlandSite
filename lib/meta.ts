@@ -37,11 +37,11 @@ const PAGES = {
     en: { title: 'Services', description: 'Building design and construction, renovation, energy upgrades and interior design.' },
   },
   contact: {
-    el: { title: 'Επικοινωνία', description: 'Τηλέφωνο, email και διεύθυνση γραφείου της Εύγειος Goodland Μ. ΕΠΕ στο Μοσχάτο.' },
+    el: { title: 'Επικοινωνία', description: 'Τηλέφωνο, email και διεύθυνση γραφείου της Εύγειος Goodland ΕΠΕ στο Μοσχάτο.' },
     en: { title: 'Contact', description: 'Phone, email and office address of Goodland in Moschato, Athens.' },
   },
   privacy: {
-    el: { title: 'Πολιτική απορρήτου', description: 'Πώς συλλέγει, χρησιμοποιεί και διατηρεί τα προσωπικά σας δεδομένα η Εύγειος Goodland Μ. ΕΠΕ.' },
+    el: { title: 'Πολιτική απορρήτου', description: 'Πώς συλλέγει, χρησιμοποιεί και διατηρεί τα προσωπικά σας δεδομένα η Εύγειος Goodland ΕΠΕ.' },
     en: { title: 'Privacy policy', description: 'How Goodland collects, uses and keeps your personal data.' },
   },
 } as const

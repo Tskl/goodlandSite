@@ -7,10 +7,11 @@ import { href, tr } from '@/lib/i18n'
 
 type State = 'idle' | 'sending' | 'ok' | 'error'
 
-export default function ContactForm({ about, lang = 'el' }: { about?: string; lang?: Lang }) {
+export default function ContactForm({ about, slug, lang = 'el' }: { about?: string; slug?: string; lang?: Lang }) {
   const T = tr(lang)
   const [state, setState] = useState<State>('idle')
   const [error, setError] = useState('')
+  const [confirmed, setConfirmed] = useState(false)
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
@@ -21,10 +22,11 @@ export default function ContactForm({ about, lang = 'el' }: { about?: string; la
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...data, about, lang }),
+        body: JSON.stringify({ ...data, about, slug, lang }),
       })
       const json = await res.json()
       if (!res.ok) throw new Error(json.error || T('somethingWrong'))
+      setConfirmed(!!json.confirmation)
       setState('ok')
     } catch (err) {
       setState('error')
@@ -37,6 +39,11 @@ export default function ContactForm({ about, lang = 'el' }: { about?: string; la
       <div className="form__ok">
         <h3>{T('sentTitle')}</h3>
         <p className="dim" style={{ marginBottom: 0 }}>{T('sentBody')}</p>
+        {confirmed && (
+          <p className="dim" style={{ marginTop: 10, marginBottom: 0 }}>
+            {lang === 'en' ? 'We have also sent a confirmation to your email.' : 'Σας στείλαμε και επιβεβαίωση στο email σας.'}
+          </p>
+        )}
       </div>
     )
   }

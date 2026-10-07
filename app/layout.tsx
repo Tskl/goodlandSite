@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: { default: 'Εύγειος Goodland — Κατασκευαστική εταιρεία, Αθήνα', template: '%s — Εύγειος Goodland' },
   description:
     'Νεόδμητα διαμερίσματα ενεργειακής κλάσης Α σε Αθήνα και προάστια, απευθείας από τον κατασκευαστή. Μελέτη, κατασκευή, ανακαινίσεις, διαμόρφωση εσωτερικών χώρων.',
-  openGraph: { type: 'website', locale: 'el_GR', siteName: 'Εύγειος Goodland Μ. ΕΠΕ' },
+  openGraph: { type: 'website', locale: 'el_GR', siteName: 'Εύγειος Goodland ΕΠΕ' },
 }
 
 /** Δεδομένα από τη βάση: ανανέωση το πολύ κάθε ώρα· το admin ανανεώνει αμέσως. */

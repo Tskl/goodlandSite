@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react'
 import type { Property } from '@/content/types'
 import PropertyCard from './PropertyCard'
 import UnitCard from './UnitCard'
+import Select from './Select'
 import { flatUnits, priceNumber, unitsOf, type FlatUnit } from '@/lib/features'
 import { name } from '@/lib/greek'
 import type { Lang } from '@/lib/i18n'
@@ -60,33 +61,40 @@ export default function Listing({ properties, lang = 'el' }: { properties: Prope
 
           <div className="toolbar__group">
             <span className="label">{T('area')}</span>
-            <select value={area ?? ''} onChange={(e) => setArea(e.target.value || null)} aria-label={T('area')}>
-              <option value="">{T('allF')}</option>
-              {areas.map((a) => <option key={a} value={a}>{(lang === 'en' && areaEn.get(a)) || name(a, lang)}</option>)}
-            </select>
+            <Select
+              label={T('area')}
+              value={area ?? ''}
+              onChange={(v) => setArea(v || null)}
+              options={[{ value: '', label: T('allF') }, ...areas.map((a) => ({ value: a, label: (lang === 'en' && areaEn.get(a)) || name(a, lang) }))]}
+            />
           </div>
 
           {view === 'units' && (
             <div className="toolbar__group">
               <span className="label">{T('bedrooms')}</span>
-              <select value={beds ?? ''} onChange={(e) => setBeds(e.target.value ? Number(e.target.value) : null)} aria-label={T('bedrooms')}>
-                <option value="">{T('allN')}</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">{T('threePlus')}</option>
-              </select>
+              <Select
+                label={T('bedrooms')}
+                value={beds == null ? '' : String(beds)}
+                onChange={(v) => setBeds(v ? Number(v) : null)}
+                options={[{ value: '', label: T('allN') }, { value: '1', label: '1' }, { value: '2', label: '2' }, { value: '3', label: T('threePlus') }]}
+              />
             </div>
           )}
 
           {view === 'units' && (
             <div className="toolbar__group">
               <span className="label">{T('sort')}</span>
-              <select value={sort} onChange={(e) => setSort(e.target.value as Sort)} aria-label={T('sort')}>
-                <option value="price-asc">{T('priceAsc')}</option>
-                <option value="price-desc">{T('priceDesc')}</option>
-                <option value="sqm-desc">{T('sqmDesc')}</option>
-                <option value="area">{T('byArea')}</option>
-              </select>
+              <Select
+                label={T('sort')}
+                value={sort}
+                onChange={(v) => setSort(v as Sort)}
+                options={[
+                  { value: 'price-asc', label: T('priceAsc') },
+                  { value: 'price-desc', label: T('priceDesc') },
+                  { value: 'sqm-desc', label: T('sqmDesc') },
+                  { value: 'area', label: T('byArea') },
+                ]}
+              />
             </div>
           )}
 

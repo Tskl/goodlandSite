@@ -140,6 +140,20 @@ export async function toggleAdminAction(fd: FormData) {
   })
 }
 
+// ── Μηνύματα φόρμας ─────────────────────────────────────────────────
+export async function toggleHandledAction(fd: FormData) {
+  const id = Number(str(fd, 'id'))
+  const a = await requireAdmin()
+  await db().query(
+    `UPDATE site.inquiries SET handled = NOT handled,
+       handled_by = CASE WHEN handled THEN NULL ELSE $2::bigint END,
+       handled_at = CASE WHEN handled THEN NULL ELSE now() END
+     WHERE id = $1`,
+    [id, a.id],
+  )
+  redirect(`/admin/messages#m${id}`)
+}
+
 // ── Περιοχές ────────────────────────────────────────────────────────
 async function areaIdFrom(fd: FormData): Promise<number> {
   const id = str(fd, 'area_id')
