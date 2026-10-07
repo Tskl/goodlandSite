@@ -11,8 +11,10 @@ export function mailConfigured(): boolean {
   return !!(process.env.SMTP_USER && process.env.SMTP_PASS)
 }
 
-let transport: nodemailer.Transporter | null = null
-function tx(): nodemailer.Transporter {
+// Ο τύπος βγαίνει από την ίδια τη συνάρτηση — δουλεύει με όποια έκδοση τύπων του nodemailer.
+type Transport = ReturnType<typeof nodemailer.createTransport>
+let transport: Transport | null = null
+function tx(): Transport {
   if (!transport) {
     const port = Number(process.env.SMTP_PORT || 465)
     transport = nodemailer.createTransport({
