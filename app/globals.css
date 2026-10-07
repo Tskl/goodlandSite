@@ -14,12 +14,17 @@
   --ink-faint: #9C978C;   /* τα μικρά γκρι γράμματα θέλουν αέρα */
   --line:      #2A2825;
   --line-soft: #211F1C;
-  --accent:    #FFFF76;   /* γέμισμα κουμπιών */
-  --hi:        #FFFF76;   /* κείμενο που πρέπει να ξεχωρίσει */
-  --blue:      #85ABFF;
-  --red:       #FF4843;
-  /* τα τέσσερα του σήματος, ρυθμισμένα για σκούρο φόντο */
-  --c1: #6E8CFF;  --c2: #FF6B66;  --c3: #FFE14A;  --c4: #B9B5AC;
+  /* Τα τέσσερα χρώματα του λογοτύπου, ΑΚΡΙΒΩΣ όπως στο πρωτότυπο αρχείο
+     (μετρημένα από το PNG του Wix). Για γεμίσματα: τετραγωνάκια, μπάρες. */
+  --b1: #5972E5;  --b2: #DE302D;  --b3: #F7E24F;  --b4: #D9D9D9;
+
+  --accent:    #F7E24F;   /* γέμισμα κουμπιών — το κίτρινο του λογοτύπου */
+  --hi:        #F7E24F;   /* κείμενο που πρέπει να ξεχωρίσει */
+  --blue:      #5C75E6;
+  --red:       #E14542;
+  /* Για ΚΕΙΜΕΝΟ: ίδια απόχρωση με το λογότυπο, φωτεινότητα ρυθμισμένη
+     μόνο όσο χρειάζεται για αντίθεση ≥ 4.5:1 στο σκούρο φόντο. */
+  --c1: #5C75E6;  --c2: #E14542;  --c3: #F7E24F;  --c4: #D9D9D9;
   --paper: var(--bg-raised);
   --shadow:    none;
 
@@ -56,11 +61,12 @@
   --line:      #DCD7CC;
   --line-soft: #E7E2D8;
   --accent:    #1B1A16;   /* μαύρα κουμπιά πάνω σε κρεμ */
-  --hi:        #6E6A11;   /* το κίτρινο του σήματος, σκουρεμένο ώστε να διαβάζεται */
-  --blue:      #23439F;
-  --red:       #B32B26;
-  /* στο φωτεινό τα ίδια χρώματα, σκουρεμένα ώστε να διαβάζονται */
-  --c1: #2B45C9;  --c2: #C9342F;  --c3: #9A7A00;  --c4: #8A857B;
+  --hi:        #807106;   /* το κίτρινο του λογοτύπου, σκουρεμένο ώστε να διαβάζεται (4.5:1) */
+  --blue:      #4B66E3;
+  --red:       #DB2622;
+  /* Για ΚΕΙΜΕΝΟ στο κρεμ: ίδια απόχρωση, σκουρεμένη ως το 4.5:1.
+     Τα --b1..--b4 (γεμίσματα) μένουν ίδια με το λογότυπο και εδώ. */
+  --c1: #4B66E3;  --c2: #DB2622;  --c3: #807106;  --c4: #717171;
   --paper: #FFFFFF;
   --shadow:    0 1px 0 rgba(20,18,10,0.05);
 }
@@ -167,6 +173,8 @@ section + section { border-top: 1px solid var(--line-soft); }
 .header__nav a:hover::after { transform: scaleX(1); }
 .header__nav a:hover, .header__actions a:hover { color: var(--ink); }
 @media (min-width: 940px) { .header__nav, .header__actions { display: flex; } }
+.header__nav a, .header__actions a { white-space: nowrap; }
+@media (min-width: 940px) and (max-width: 1099px) { .header__nav, .header__actions { gap: var(--space-2); } }
 .header__tel { color: var(--hi); }
 .header__tel:hover { color: var(--hi); opacity: 0.8; }
 @media (max-width: 1099px) { .header__hide-sm { display: none; } }
@@ -663,16 +671,16 @@ button[disabled] { opacity: 0.5; cursor: wait; }
 .stats > div::before {
   content: ''; position: absolute; top: 0; left: 0; width: 9px; height: 9px;
 }
-.stats > div:nth-child(1)::before { background: var(--c1); }
-.stats > div:nth-child(2)::before { background: var(--c2); }
-.stats > div:nth-child(3)::before { background: var(--c3); }
-.stats > div:nth-child(4)::before { background: var(--c4); }
+.stats > div:nth-child(1)::before { background: var(--b1); }
+.stats > div:nth-child(2)::before { background: var(--b2); }
+.stats > div:nth-child(3)::before { background: var(--b3); }
+.stats > div:nth-child(4)::before { background: var(--b4); }
 
 /* το eyebrow αποκτά μια γραμμή στο κίτρινο του σήματος */
 .eyebrow { position: relative; padding-left: 16px; }
 .eyebrow::before {
   content: ''; position: absolute; left: 0; top: 0.45em; width: 8px; height: 8px;
-  background: var(--c3);
+  background: var(--b3);
 }
 
 /* σύνδεσμοι κειμένου: υπογράμμιση στο χρώμα του σήματος */
@@ -714,3 +722,133 @@ button[disabled] { opacity: 0.5; cursor: wait; }
 .bullets { list-style: none; padding: 0; margin-bottom: 0; display: grid; gap: 6px; }
 .bullets li { position: relative; padding-left: 1.1em; }
 .bullets li::before { content: ''; position: absolute; left: 0; top: 0.62em; width: 6px; height: 6px; background: var(--hi); }
+
+/* ══════════════════════════════════════════════════════════════════
+   ADMIN — /admin. Λειτουργικό, όχι βιτρίνα: μεγάλα πεδία, καθαρά κουμπιά,
+   δουλεύει και από κινητό. Ίδια χρώματα με το site (και τα δύο θέματα).
+   ══════════════════════════════════════════════════════════════════ */
+.adm { min-height: 100vh; font-size: 15px; }
+.adm h1 { font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2.1rem); margin: 0; }
+.adm h2 { font-size: 1.15rem; margin: 0 0 14px; }
+.adm code { font-size: 0.9em; }
+.adm-dim { color: var(--ink-dim); }
+.adm-strong { font-weight: 600; }
+.adm-main { max-width: 1100px; margin: 0 auto; padding: 24px var(--gutter) 120px; }
+.adm-narrow { max-width: 720px; }
+.adm-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin: 8px 0 18px; }
+.adm-head__side { display: flex; gap: 8px; align-items: center; }
+.adm-crumbs { margin: 0; color: var(--ink-dim); font-size: 0.85rem; }
+
+.adm-bar { position: sticky; top: 0; z-index: 40; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px;
+  padding: 10px var(--gutter); background: var(--bg-raised); border-bottom: 1px solid var(--line); }
+.adm-bar nav { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: center; }
+.adm-bar nav a { color: var(--ink-dim); font-size: 0.9rem; }
+.adm-bar nav a:hover { color: var(--ink); }
+.adm-bar__home { color: var(--ink) !important; font-weight: 700; margin-right: 8px; }
+.adm-bar__me { display: flex; gap: 10px; align-items: center; font-size: 0.9rem; }
+
+.adm-flash { padding: 12px 16px; margin: 0 0 18px; border-left: 4px solid var(--b1); background: color-mix(in srgb, var(--b1) 12%, transparent); }
+.adm-flash--err { border-left-color: var(--b2); background: color-mix(in srgb, var(--b2) 12%, transparent); }
+
+.adm-card { border: 1px solid var(--line); background: var(--bg-raised); padding: 20px; margin: 18px 0; scroll-margin-top: 70px; }
+.adm-card--danger { border-color: color-mix(in srgb, var(--b2) 45%, var(--line)); }
+.adm-tabs { display: flex; flex-wrap: wrap; gap: 6px; position: sticky; top: 52px; z-index: 30; background: var(--bg); padding: 8px 0; }
+.adm-tabs a { padding: 8px 12px; border: 1px solid var(--line); font-size: 0.88rem; }
+.adm-tabs a:hover { border-color: var(--ink-dim); }
+
+.adm-form { display: grid; gap: 16px; }
+.adm-grid2 { display: grid; gap: 16px; grid-template-columns: 1fr; }
+.adm-grid3 { display: grid; gap: 16px; grid-template-columns: 1fr; }
+@media (min-width: 700px) { .adm-grid2 { grid-template-columns: 1fr 1fr; } .adm-grid3 { grid-template-columns: repeat(3, 1fr); } }
+.adm-grid2 > *, .adm-grid3 > * { min-width: 0; }
+.adm-field--wide { grid-column: 1 / -1; }
+.adm-row { display: grid; gap: 16px; grid-template-columns: 1fr 1fr; }
+.adm-sub { display: grid; gap: 12px; padding: 12px; border: 1px dashed var(--line); grid-column: 1 / -1; }
+.adm-field { display: grid; gap: 6px; }
+.adm-field__label { font-size: 0.8rem; font-weight: 600; color: var(--ink-dim); }
+.adm-field__hint { font-size: 0.78rem; color: var(--ink-faint); }
+.adm input:not([type=checkbox]):not([type=file]), .adm select, .adm textarea {
+  width: 100%; min-height: 44px; padding: 10px 12px; font: inherit; color: var(--ink);
+  background: var(--bg); border: 1px solid var(--line); border-radius: 0;
+}
+.adm textarea { min-height: 0; resize: vertical; line-height: 1.5; }
+.adm input:focus, .adm select:focus, .adm textarea:focus { outline: 2px solid var(--b1); outline-offset: -1px; }
+.adm input[readonly] { color: var(--ink-faint); }
+.adm-check { display: flex; gap: 10px; align-items: center; }
+.adm-check input { width: 20px; height: 20px; accent-color: var(--b1); }
+.adm-more summary { cursor: pointer; color: var(--ink-dim); font-size: 0.88rem; padding: 4px 0; }
+.adm-more[open] > div { margin-top: 12px; }
+.adm-inline { display: flex; gap: 8px; align-items: center; margin-top: 8px; }
+
+.adm-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 18px;
+  font: inherit; font-weight: 600; font-size: 0.9rem; cursor: pointer; border: 1px solid var(--accent); background: var(--accent); color: var(--bg); }
+.adm-btn:disabled { opacity: 0.55; cursor: wait; }
+.adm-btn--ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+.adm-btn--ghost:hover { border-color: var(--ink-dim); }
+.adm-btn--danger { background: transparent; color: var(--red); border-color: color-mix(in srgb, var(--red) 55%, transparent); }
+.adm-btn--sm { min-height: 36px; padding: 6px 12px; font-size: 0.82rem; }
+.adm-btn--xs { min-height: 30px; min-width: 30px; padding: 2px 8px; font-size: 0.8rem; }
+.adm-btn--st.is-available { background: transparent; color: var(--ink); border-color: var(--b1); }
+.adm-btn--st.is-reserved  { background: transparent; color: var(--ink); border-color: var(--b3); }
+.adm-btn--st.is-sold      { background: transparent; color: var(--ink); border-color: var(--b2); }
+.adm-spacer { flex: 1; }
+
+.adm-tag { display: inline-block; padding: 2px 8px; font-size: 0.75rem; border: 1px solid var(--line); color: var(--ink-dim); margin-left: 6px; }
+.adm-pill { flex: none; padding: 3px 10px; font-size: 0.75rem; font-weight: 700; border: 1px solid; }
+.adm-pill.is-available { border-color: var(--b1); color: var(--c1); }
+.adm-pill.is-reserved  { border-color: var(--b3); color: var(--c3); }
+.adm-pill.is-sold      { border-color: var(--line); color: var(--ink-faint); }
+
+.adm-table-wrap { overflow-x: auto; }
+.adm-table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+.adm-table th, .adm-table td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.adm-table th { font-size: 0.75rem; color: var(--ink-dim); font-weight: 600; }
+.adm-table .r { text-align: right; }
+
+.adm-units { display: grid; gap: 8px; }
+.adm-unit { border: 1px solid var(--line); background: var(--bg); scroll-margin-top: 110px; }
+.adm-unit > summary { display: flex; gap: 12px; align-items: center; justify-content: space-between; padding: 14px 16px; cursor: pointer; list-style: none; }
+.adm-unit > summary::-webkit-details-marker { display: none; }
+.adm-unit > summary::before { content: '▸'; color: var(--ink-faint); margin-right: -4px; }
+.adm-unit[open] > summary::before { content: '▾'; }
+.adm-unit__main { flex: 1; min-width: 0; }
+.adm-unit.is-sold > summary { color: var(--ink-dim); }
+.adm-unit[open] { border-color: var(--ink-faint); }
+.adm-unit > form, .adm-unit > .adm-unit__quick { padding: 0 16px 16px; }
+.adm-unit__quick { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.adm-unit--new { margin-top: 12px; border-style: dashed; }
+.adm-danger-inline { padding: 0 16px 16px; }
+.adm-actions { display: flex; gap: 8px; }
+
+.adm-plans-pick { border: 1px solid var(--line); padding: 12px; margin: 0; }
+.adm-plans-pick legend { font-size: 0.8rem; font-weight: 600; color: var(--ink-dim); padding: 0 6px; }
+.adm-plan-checks { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); margin-top: 8px; }
+.adm-plan-check { display: grid; gap: 4px; padding: 6px; border: 1px solid var(--line); cursor: pointer; font-size: 0.8rem; }
+.adm-plan-check:has(input:checked) { border-color: var(--b1); outline: 2px solid var(--b1); }
+.adm-plan-check img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #fff; }
+.adm-plan-check.is-off { opacity: 0.4; cursor: not-allowed; }
+
+.adm-media { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); }
+.adm-media li { border: 1px solid var(--line); background: var(--bg); }
+.adm-media img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+#plans .adm-media img { object-fit: contain; background: #fff; }
+.adm-media__bar { display: flex; gap: 4px; align-items: center; padding: 6px; font-size: 0.8rem; }
+
+.adm-upload { display: grid; gap: 10px; margin-top: 8px; }
+.adm-drop { position: relative; display: grid; place-items: center; min-height: 84px; padding: 16px; border: 2px dashed var(--line); cursor: pointer; text-align: center; font-weight: 600; }
+.adm-drop:hover { border-color: var(--b1); }
+.adm-drop.is-busy { cursor: wait; opacity: 0.7; }
+.adm-drop input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+.adm-uplist { list-style: none; padding: 0; margin: 0; font-size: 0.85rem; display: grid; gap: 2px; }
+.adm-uplist .is-ok { color: var(--c1); }
+.adm-uplist .is-err { color: var(--red); }
+
+.adm-users { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.adm-users li { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-start; justify-content: space-between; padding: 12px; border: 1px solid var(--line); background: var(--bg); }
+.adm-users li.is-off { opacity: 0.6; }
+.adm-users summary { list-style: none; }
+
+.adm-auth { max-width: 420px; margin: 0 auto; padding: 12vh var(--gutter) 80px; display: grid; gap: 14px; }
+
+/* Το διαμέρισμα στο οποίο ήρθες από την κάρτα: σύντομος τονισμός */
+.ub.is-target { outline: 2px solid var(--b1); outline-offset: 8px; transition: outline-color 0.6s var(--ease); }

@@ -48,7 +48,7 @@ const D = {
   /* πλοήγηση */
   home:        { el: 'Αρχική',              en: 'Home' },
   forSale:     { el: 'Προς πώληση',         en: 'For sale' },
-  completed:   { el: 'Έργα',                en: 'Projects' },
+  completed:   { el: 'Ολοκληρωμένα έργα',   en: 'Completed projects' },
   completedFull: { el: 'Ολοκληρωμένα έργα', en: 'Completed projects' },
   interiors:   { el: 'Διαμορφώσεις',        en: 'Interiors' },
   services:    { el: 'Υπηρεσίες',           en: 'Services' },

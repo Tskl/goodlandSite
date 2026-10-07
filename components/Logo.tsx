@@ -3,10 +3,10 @@
    παίρνει currentColor, οπότε διαβάζεται σωστά και στο σκούρο και
    στο φωτεινό θέμα χωρίς δεύτερο αρχείο. */
 
-const BLUE = '#4364FF'
-const RED = '#FF4F4F'
-const YELLOW = '#FFDD3E'
-const GREY = '#D6D6D6'
+const BLUE = '#5972E5'
+const RED = '#DE302D'
+const YELLOW = '#F7E24F'
+const GREY = '#D9D9D9'
 
 /* 2×2 σήμα: 91 × 79 */
 function Mark() {

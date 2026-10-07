@@ -7,6 +7,7 @@ import Gallery from '@/components/Gallery'
 import ContactForm from '@/components/ContactForm'
 import Shell from '@/components/Shell'
 import UnitBlock from '@/components/UnitBlock'
+import ScrollToHash from '@/components/ScrollToHash'
 import { unitsOf, bathroomsOf, pricePerSqm, formatPrice, priceNumber } from '@/lib/features'
 import { photosOf } from '@/lib/plans'
 import { energy, label } from '@/lib/greek'
@@ -52,6 +53,7 @@ export default async function Detail({ slug, lang }: { slug: string; lang: Lang 
     return (
       <Shell lang={lang}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <ScrollToHash />
 
         <div className="container">
           <nav className="crumbs">
